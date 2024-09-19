@@ -1,0 +1,692 @@
+Department Scores:
+-----------------------------------------
+                  precision    recall  f1-score   support
+
+  Communications       1.00      1.00      1.00         3
+      Electrical       1.00      1.00      1.00        13
+     Engineering       1.00      1.00      1.00        15
+Hull Maintenance       1.00      1.00      1.00         2
+      Mechanical       1.00      1.00      1.00        14
+          Safety       1.00      1.00      1.00        13
+
+        accuracy                           1.00        60
+       macro avg       1.00      1.00      1.00        60
+    weighted avg       1.00      1.00      1.00        60
+
+
+
+-----------------------------------------
+
+Priority Scores:
+-----------------------------------------
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00        23
+         Low       1.00      0.93      0.96        14
+      Medium       0.96      1.00      0.98        23
+
+    accuracy                           0.98        60
+   macro avg       0.99      0.98      0.98        60
+weighted avg       0.98      0.98      0.98        60
+
+
+Generated Summary: Hydraulic pressure unstable. Check for leaks/blockages, replace seals, flush system, and verify pressure stability. Also, report any dolphin sightings.
+
+Generated Description: "Hydraulic pressure is unstable, requiring immediate attention to check for leaks or blockages. Necessary actions include replacing seals, flushing the system, and verifying pressure stability."
+
+Actual Description: Hydraulic system pressure fluctuating beyond safe operational limits. Inspect hydraulic lines for potential leaks or blockages. Inspect and replace any worn-out seals and o-rings. Perform system flush to remove contaminants. Verify pressure stability post-repair by conducting a full operational test.
+
+ROUGE Score: {'rouge1': Score(precision=0.6, recall=0.3488372093023256, fmeasure=0.4411764705882353), 'rouge2': Score(precision=0.16666666666666666, recall=0.09523809523809523, fmeasure=0.12121212121212123), 'rougeL': Score(precision=0.48, recall=0.27906976744186046, fmeasure=0.35294117647058815)}
+BERT Score: {'precision': 0.891312837600708, 'recall': 0.8825398683547974, 'f1': 0.8869046568870544}
+
+-----------------------------------------
+
+Generated Summary: Fuel injectors causing engine misfires due to inconsistent spray. Inspect, clean, or replace them. Test fuel system pressure afterwards.
+
+Generated Description: "Fuel injectors are causing engine misfires due to inconsistent spray patterns. This issue needs to be addressed by inspecting, cleaning, or replacing the injectors. A fuel system pressure test should be conducted afterwards to ensure proper operation."
+
+Actual Description: Main engine fuel injectors exhibiting inconsistent spray patterns leading to engine misfires. Remove and inspect injectors for clogging or damage. Clean or replace injectors as necessary. Conduct fuel system pressure test post-repair to ensure proper operation.
+
+ROUGE Score: {'rouge1': Score(precision=0.5945945945945946, recall=0.5945945945945946, fmeasure=0.5945945945945946), 'rouge2': Score(precision=0.3333333333333333, recall=0.3333333333333333, fmeasure=0.3333333333333333), 'rougeL': Score(precision=0.5135135135135135, recall=0.5135135135135135, fmeasure=0.5135135135135135)}
+BERT Score: {'precision': 0.9254531264305115, 'recall': 0.9185556173324585, 'f1': 0.9219915270805359}
+
+-----------------------------------------
+
+Generated Summary: Primary radar shows power loss. Check supply lines for shorts or corrosion; replace any faulty parts. Ensure radar works consistently afterward. The cat played with the radar antenna.
+
+Generated Description: "The primary radar system is experiencing power loss. A thorough inspection of the power supply lines and connections is needed to check for potential shorts or corrosion. Any faulty parts should be replaced to ensure the radar works consistently afterward."
+
+Actual Description: Primary radar system experiencing intermittent power loss. Conduct a thorough inspection of power supply lines and connections for potential shorts or corrosion. Replace any damaged components. Test radar functionality post-repair to ensure consistent power delivery.
+
+ROUGE Score: {'rouge1': Score(precision=0.65, recall=0.7222222222222222, fmeasure=0.6842105263157895), 'rouge2': Score(precision=0.38461538461538464, recall=0.42857142857142855, fmeasure=0.4054054054054054), 'rougeL': Score(precision=0.6, recall=0.6666666666666666, fmeasure=0.631578947368421)}
+BERT Score: {'precision': 0.9329322576522827, 'recall': 0.9398797750473022, 'f1': 0.936393141746521}
+
+-----------------------------------------
+
+Generated Summary: Life raft release system failure. Check and fix components. Test for emergency readiness. Also, the moon is bright tonight.
+
+Generated Description: "Life raft release system failure. Immediate inspection and repair of all components are required to ensure the system is operational. Conduct thorough testing to confirm emergency readiness."
+
+Actual Description: Life raft automatic release mechanism malfunctioning. Inspect mechanical and electronic components for wear or damage. Repair or replace faulty parts. Conduct a full operational test to ensure proper release functionality in emergency situations.
+
+ROUGE Score: {'rouge1': Score(precision=0.48148148148148145, recall=0.3939393939393939, fmeasure=0.43333333333333324), 'rouge2': Score(precision=0.11538461538461539, recall=0.09375, fmeasure=0.10344827586206896), 'rougeL': Score(precision=0.37037037037037035, recall=0.30303030303030304, fmeasure=0.3333333333333333)}
+BERT Score: {'precision': 0.9022588133811951, 'recall': 0.9008985757827759, 'f1': 0.9015781879425049}
+
+-----------------------------------------
+
+Generated Summary: Ventilation in engine room failing. Check ducts for blocks, clean filters, and verify fan and connections. Restore performance. Also, the cat needs feeding.
+
+Generated Description: "The ventilation system in the engine room is failing. It is necessary to check the ductwork for blockages, clean or replace air filters, and verify the operation of the fan and electrical connections to restore the system to optimal performance levels."
+
+Actual Description: Ventilation system in engine room not maintaining proper airflow. Inspect ductwork for blockages or damage. Clean or replace air filters. Verify fan operation and electrical connections. Ensure system is restored to optimal performance levels.
+
+ROUGE Score: {'rouge1': Score(precision=0.6341463414634146, recall=0.7647058823529411, fmeasure=0.6933333333333332), 'rouge2': Score(precision=0.35, recall=0.42424242424242425, fmeasure=0.3835616438356164), 'rougeL': Score(precision=0.5609756097560976, recall=0.6764705882352942, fmeasure=0.6133333333333334)}
+BERT Score: {'precision': 0.9292854070663452, 'recall': 0.9329967498779297, 'f1': 0.9311373829841614}
+
+-----------------------------------------
+
+Generated Summary: Anchor windlass motor overheating; inspect and repair motor windings and cooling system, then test under load.
+
+Generated Description: "Anchor windlass motor overheating during operation. Inspect motor windings for signs of excessive wear or damage. Check lubrication levels and cooling system functionality. Repair or replace components as needed. Test motor under load to confirm proper operation."
+
+Actual Description: Anchor windlass motor overheating during operation. Inspect motor windings for signs of excessive wear or damage. Check lubrication levels and cooling system functionality. Repair or replace components as needed. Test motor under load to confirm proper operation.
+
+ROUGE Score: {'rouge1': Score(precision=1.0, recall=1.0, fmeasure=1.0), 'rouge2': Score(precision=1.0, recall=1.0, fmeasure=1.0), 'rougeL': Score(precision=1.0, recall=1.0, fmeasure=1.0)}
+BERT Score: {'precision': 0.9749019145965576, 'recall': 0.9805867075920105, 'f1': 0.9777359962463379}
+
+-----------------------------------------
+
+Generated Summary: Comms system faces intermittent signal drop. Check and repair antenna and cables. Conduct tests to ensure reliability. Also, inspect the nearby coffee machine.
+
+Generated Description: "The communication system is experiencing intermittent signal drops. The antenna and cables need to be checked and repaired. Conduct thorough tests to ensure the system's reliability. Additionally, inspect the nearby coffee machine."
+
+Actual Description: Communication system experiencing intermittent signal loss. Inspect antenna connections and cabling for potential damage or corrosion. Replace any faulty components. Conduct system tests to ensure reliable communication channels.
+
+ROUGE Score: {'rouge1': Score(precision=0.45454545454545453, recall=0.5357142857142857, fmeasure=0.49180327868852464), 'rouge2': Score(precision=0.1875, recall=0.2222222222222222, fmeasure=0.20338983050847456), 'rougeL': Score(precision=0.3939393939393939, recall=0.4642857142857143, fmeasure=0.4262295081967213)}
+BERT Score: {'precision': 0.9150808453559875, 'recall': 0.9131642580032349, 'f1': 0.9141215085983276}
+
+-----------------------------------------
+
+Generated Summary: Fire alarm panel showing false alarms. Inspect and test detectors, replace if necessary, and reset system. Conduct full test for reliability.
+
+Generated Description: "The fire alarm panel is showing false alarms in multiple zones. Inspect and test all fire detectors for proper operation. Replace any defective alarms. Verify panel functionality and reset the system. Conduct a full system test to ensure reliability."
+
+Actual Description: Fire alarm panel showing false alarms in multiple zones. Inspect and test all fire detectors for proper operation. Replace any defective alarms. Verify panel functionality and reset system. Conduct a full system test to ensure reliability.
+
+ROUGE Score: {'rouge1': Score(precision=0.9230769230769231, recall=1.0, fmeasure=0.9600000000000001), 'rouge2': Score(precision=0.868421052631579, recall=0.9428571428571428, fmeasure=0.904109589041096), 'rougeL': Score(precision=0.9230769230769231, recall=1.0, fmeasure=0.9600000000000001)}
+BERT Score: {'precision': 0.9649660587310791, 'recall': 0.9725867509841919, 'f1': 0.9687614440917969}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump underperforming. Inspect intake for debris and replace worn parts. Test after maintenance.
+
+Generated Description: "The bilge pump is underperforming, which may be due to debris in the intake or worn-out parts. An inspection and cleaning of the intake are necessary, along with the replacement of any worn components."
+
+Actual Description: Bilge pump operating at reduced capacity. Inspect and clean pump intake for debris. Check and replace worn-out impeller and seals. Test pump performance post-maintenance to ensure proper bilge water removal.
+
+ROUGE Score: {'rouge1': Score(precision=0.3142857142857143, recall=0.34375, fmeasure=0.3283582089552239), 'rouge2': Score(precision=0.11764705882352941, recall=0.12903225806451613, fmeasure=0.12307692307692307), 'rougeL': Score(precision=0.22857142857142856, recall=0.25, fmeasure=0.23880597014925375)}
+BERT Score: {'precision': 0.8855953216552734, 'recall': 0.8878462314605713, 'f1': 0.8867193460464478}
+
+-----------------------------------------
+
+Generated Summary: Rudder actuator has hydraulic leak; check lines and fittings, replace parts, refill fluid, and bleed system. Verify steering post-repair. Add extra mayonnaise.
+
+Generated Description: "Rudder actuator has a hydraulic leak. Inspect hydraulic lines and fittings for damage or wear. Replace defective components. Refill hydraulic fluid and bleed the system. Verify steering response post-repair."
+
+Actual Description: Steering system hydraulic leak detected at rudder actuator. Inspect hydraulic lines and fittings for damage or wear. Replace defective components. Refill hydraulic fluid and bleed system. Verify steering response post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.9, recall=0.8709677419354839, fmeasure=0.8852459016393444), 'rouge2': Score(precision=0.7931034482758621, recall=0.7666666666666667, fmeasure=0.7796610169491527), 'rougeL': Score(precision=0.8333333333333334, recall=0.8064516129032258, fmeasure=0.819672131147541)}
+BERT Score: {'precision': 0.9653016924858093, 'recall': 0.9581730365753174, 'f1': 0.9617241024971008}
+
+-----------------------------------------
+
+Generated Summary: Internal lighting flickering in crew quarters. Check wiring and fixtures for issues. Replace damaged parts and test under load for stability.
+
+Generated Description: "Internal lighting circuit in crew quarters is flickering. Inspect wiring and light fixtures for loose connections or corrosion. Replace any damaged components. Test lighting circuit under load to ensure stability."
+
+Actual Description: Internal lighting circuit in crew quarters flickering. Inspect wiring and light fixtures for loose connections or corrosion. Replace any damaged components. Test lighting circuit under load to ensure stability.
+
+ROUGE Score: {'rouge1': Score(precision=0.9666666666666667, recall=1.0, fmeasure=0.983050847457627), 'rouge2': Score(precision=0.9310344827586207, recall=0.9642857142857143, fmeasure=0.9473684210526316), 'rougeL': Score(precision=0.9666666666666667, recall=1.0, fmeasure=0.983050847457627)}
+BERT Score: {'precision': 0.9698737263679504, 'recall': 0.9772130250930786, 'f1': 0.9735295176506042}
+
+-----------------------------------------
+
+Generated Summary: Generator fails during drills; fuel system, battery, and electrical need inspection. Test after repairs.
+
+Generated Description: "The emergency generator fails to start during drills. The fuel system, battery charge, and electrical connections need to be inspected for potential issues. Repairs or replacements of defective components are necessary, followed by a start-up test to ensure the generator's reliability."
+
+Actual Description: Emergency generator not starting during drills. Inspect fuel system for blockages or contamination. Check battery charge and electrical connections. Repair or replace defective components. Conduct start-up test to ensure generator reliability.
+
+ROUGE Score: {'rouge1': Score(precision=0.6046511627906976, recall=0.8125, fmeasure=0.6933333333333334), 'rouge2': Score(precision=0.35714285714285715, recall=0.4838709677419355, fmeasure=0.410958904109589), 'rougeL': Score(precision=0.5581395348837209, recall=0.75, fmeasure=0.6399999999999999)}
+BERT Score: {'precision': 0.9230944514274597, 'recall': 0.9348573684692383, 'f1': 0.928938627243042}
+
+-----------------------------------------
+
+Generated Summary: Seawater cooling flow reduced. Check intake for blockages, inspect pumps, replace impellers if needed, and flush system. Verify flow rate after maintenance. Hippos are nocturnal.
+
+Generated Description: "Seawater cooling system experiencing reduced flow. Inspect intake screens for blockages, check pump operation, replace any worn-out impellers, and flush the system to remove scale and marine growth. Verify flow rate post-maintenance."
+
+Actual Description: Seawater cooling system experiencing reduced flow. Inspect intake screens for blockages. Check pump operation and replace any worn-out impellers. Flush system to remove scale and marine growth. Verify flow rate post-maintenance.
+
+ROUGE Score: {'rouge1': Score(precision=0.9705882352941176, recall=1.0, fmeasure=0.9850746268656716), 'rouge2': Score(precision=0.8484848484848485, recall=0.875, fmeasure=0.8615384615384615), 'rougeL': Score(precision=0.9411764705882353, recall=0.9696969696969697, fmeasure=0.955223880597015)}
+BERT Score: {'precision': 0.9680715799331665, 'recall': 0.971187949180603, 'f1': 0.9696272611618042}
+
+-----------------------------------------
+
+Generated Summary: Main propulsion shaft vibrating too much. Check alignment and bearings, replace if damaged. Re-test to ensure vibrations are acceptable.
+
+Generated Description: "The main propulsion shaft is exhibiting excessive vibration. An alignment check and bearing inspection are required. Replace any damaged bearings and re-align the shaft. Re-test the propulsion system to ensure vibrations are within acceptable limits."
+
+Actual Description: Main propulsion shaft exhibiting excessive vibration. Conduct alignment check and inspect bearings for wear. Replace damaged bearings and re-align shaft. Test propulsion system under load to confirm vibration is within acceptable limits.
+
+ROUGE Score: {'rouge1': Score(precision=0.7297297297297297, recall=0.8181818181818182, fmeasure=0.7714285714285715), 'rouge2': Score(precision=0.3611111111111111, recall=0.40625, fmeasure=0.38235294117647056), 'rougeL': Score(precision=0.6756756756756757, recall=0.7575757575757576, fmeasure=0.7142857142857142)}
+BERT Score: {'precision': 0.9402817487716675, 'recall': 0.9397633075714111, 'f1': 0.9400224685668945}
+
+-----------------------------------------
+
+Generated Summary: Battery backup failing. Inspect, test, and replace faulty cells. Verify charging system and test under load.
+
+Generated Description: "Battery backup system is failing. The system needs to be inspected and tested, with any faulty cells replaced. The charging system must be verified and the backup system tested under load conditions."
+
+Actual Description: Battery backup system for critical electronics not holding charge. Inspect and test battery cells. Replace any faulty batteries. Verify charging system functionality. Test backup system under simulated load conditions.
+
+ROUGE Score: {'rouge1': Score(precision=0.59375, recall=0.6551724137931034, fmeasure=0.6229508196721311), 'rouge2': Score(precision=0.2903225806451613, recall=0.32142857142857145, fmeasure=0.3050847457627119), 'rougeL': Score(precision=0.46875, recall=0.5172413793103449, fmeasure=0.4918032786885246)}
+BERT Score: {'precision': 0.9070285558700562, 'recall': 0.915107011795044, 'f1': 0.9110498428344727}
+
+-----------------------------------------
+
+Generated Summary: CO2 fire suppression tanks show low pressure. Inspect for leaks, verify pressure, refill or replace if needed. Test the system for proper activation.
+
+Generated Description: "CO2 fire suppression tanks show low pressure. Inspect for leaks, verify pressure, refill or replace if needed. Test the system for proper activation."
+
+Actual Description: CO2 fire suppression system showing low pressure in storage tanks. Inspect tanks for leaks and verify pressure readings. Refill or replace tanks as necessary. Conduct system test to ensure proper activation in case of a fire.
+
+ROUGE Score: {'rouge1': Score(precision=0.8260869565217391, recall=0.5277777777777778, fmeasure=0.6440677966101694), 'rouge2': Score(precision=0.4090909090909091, recall=0.2571428571428571, fmeasure=0.31578947368421045), 'rougeL': Score(precision=0.7391304347826086, recall=0.4722222222222222, fmeasure=0.5762711864406781)}
+BERT Score: {'precision': 0.9340552091598511, 'recall': 0.9301919937133789, 'f1': 0.9321195483207703}
+
+-----------------------------------------
+
+Generated Summary: Fuel transfer pump intermittent. Inspect motor and electrical connections. Clean fuel filters and replace worn components. Test pump under load for reliability. Also, the weather is nice today.
+
+Generated Description: "The fuel transfer pump is operating intermittently. Inspection of the pump motor and electrical connections is required. Fuel filters need to be cleaned, and any worn-out components should be replaced. Testing the pump under load is necessary to ensure reliable fuel transfer."
+
+Actual Description: Fuel transfer pump operating intermittently. Inspect pump motor and electrical connections for faults. Check and clean fuel filters. Replace any worn-out components. Test pump operation under load to ensure reliable fuel transfer.
+
+ROUGE Score: {'rouge1': Score(precision=0.6744186046511628, recall=0.8787878787878788, fmeasure=0.7631578947368421), 'rouge2': Score(precision=0.40476190476190477, recall=0.53125, fmeasure=0.4594594594594595), 'rougeL': Score(precision=0.6046511627906976, recall=0.7878787878787878, fmeasure=0.6842105263157895)}
+BERT Score: {'precision': 0.932853639125824, 'recall': 0.9455631375312805, 'f1': 0.9391654133796692}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic oil leak in port stabilizer fin actuator. Check seals and lines, replace faulty parts, refill fluid, and test operation.
+
+Generated Description: "Hydraulic oil leak detected in the port stabilizer fin actuator. Inspection of actuator seals and hydraulic lines is required to identify any damage. Replacement of faulty parts is necessary, followed by refilling the hydraulic fluid and bleeding the system. Testing the stabilizer operation is essential to confirm the resolution of the leak."
+
+Actual Description: Port side stabilizer fin hydraulic actuator leaking oil. Inspect actuator seals and hydraulic lines for damage. Replace defective components. Refill hydraulic fluid and bleed system. Test stabilizer operation to confirm leak is resolved.
+
+ROUGE Score: {'rouge1': Score(precision=0.5384615384615384, recall=0.8484848484848485, fmeasure=0.6588235294117647), 'rouge2': Score(precision=0.23529411764705882, recall=0.375, fmeasure=0.28915662650602403), 'rougeL': Score(precision=0.46153846153846156, recall=0.7272727272727273, fmeasure=0.5647058823529413)}
+BERT Score: {'precision': 0.9092990159988403, 'recall': 0.9376957416534424, 'f1': 0.9232791066169739}
+
+-----------------------------------------
+
+Generated Summary: Intercom system facing static issues. Check wiring for damage and replace faulty parts. Test the system for clarity.
+
+Generated Description: "The intercom system is facing static issues. It is necessary to check the wiring for any damage and replace any faulty parts. Conduct thorough tests to ensure the system operates with clear communication channels."
+
+Actual Description: Internal communication system experiencing static interference. Inspect intercom wiring and connections for damage. Replace any corroded or faulty components. Conduct system tests to ensure clear communication channels.
+
+ROUGE Score: {'rouge1': Score(precision=0.5294117647058824, recall=0.6666666666666666, fmeasure=0.5901639344262295), 'rouge2': Score(precision=0.15151515151515152, recall=0.19230769230769232, fmeasure=0.1694915254237288), 'rougeL': Score(precision=0.4411764705882353, recall=0.5555555555555556, fmeasure=0.49180327868852464)}
+BERT Score: {'precision': 0.9290433526039124, 'recall': 0.9383189678192139, 'f1': 0.9336581230163574}
+
+-----------------------------------------
+
+Generated Summary: Fire main pipes corroded and leaking. Inspect system integrity, repair or replace parts, pressure test for leaks, and document all work.
+
+Generated Description: "Fire main pipes are corroded and leaking. The entire fire main system needs to be inspected for integrity. Corroded sections must be repaired or replaced, and the system should be pressure tested to ensure there are no leaks. All repairs and inspections must be documented."
+
+Actual Description: Fire main piping showing signs of corrosion and leakage. Inspect entire fire main system for integrity. Repair or replace corroded sections. Pressure test the system to ensure no leaks. Document all repairs and inspections.
+
+ROUGE Score: {'rouge1': Score(precision=0.6444444444444445, recall=0.8529411764705882, fmeasure=0.7341772151898734), 'rouge2': Score(precision=0.36363636363636365, recall=0.48484848484848486, fmeasure=0.4155844155844156), 'rougeL': Score(precision=0.5111111111111111, recall=0.6764705882352942, fmeasure=0.5822784810126582)}
+BERT Score: {'precision': 0.932230532169342, 'recall': 0.9464837908744812, 'f1': 0.9393031001091003}
+
+-----------------------------------------
+
+Generated Summary: Main propulsion engine has fuel injection problems. Inspect and clean injectors and fuel lines. Check and calibrate the fuel pump. Verify system after fixing.
+
+Generated Description: "The main propulsion engine is experiencing fuel injection problems. A detailed inspection of the fuel injectors and fuel lines is required. Cleaning or replacing clogged injectors is necessary. Additionally, the fuel pump operation needs to be checked and calibrated as needed. Verification of system performance post-repair is essential."
+
+Actual Description: Main propulsion engine experiencing fuel injection issues. Conduct detailed inspection of fuel injectors and fuel lines. Clean or replace clogged injectors. Check fuel pump operation and calibrate as needed. Verify system performance after repairs.
+
+ROUGE Score: {'rouge1': Score(precision=0.6122448979591837, recall=0.8823529411764706, fmeasure=0.7228915662650602), 'rouge2': Score(precision=0.4166666666666667, recall=0.6060606060606061, fmeasure=0.4938271604938272), 'rougeL': Score(precision=0.5918367346938775, recall=0.8529411764705882, fmeasure=0.6987951807228915)}
+BERT Score: {'precision': 0.9304449558258057, 'recall': 0.9511480331420898, 'f1': 0.940682590007782}
+
+-----------------------------------------
+
+Generated Summary: Corrosion detected on starboard hull near waterline. Sandblast, prime, and topcoat required. Check for additional corrosion. Duck seen nearby.
+
+Generated Description: "Corrosion detected on starboard hull near the waterline. Sandblasting, priming, and topcoating are required. A thorough check for additional corrosion is necessary."
+
+Actual Description: Minor corrosion observed on starboard hull plating near waterline. Sandblast affected area and apply anti-corrosion primer. Follow up with appropriate topcoat. Verify no further corrosion is present.
+
+ROUGE Score: {'rouge1': Score(precision=0.5, recall=0.39285714285714285, fmeasure=0.44), 'rouge2': Score(precision=0.19047619047619047, recall=0.14814814814814814, fmeasure=0.16666666666666666), 'rougeL': Score(precision=0.5, recall=0.39285714285714285, fmeasure=0.44)}
+BERT Score: {'precision': 0.9252586960792542, 'recall': 0.9169507026672363, 'f1': 0.9210860133171082}
+
+-----------------------------------------
+
+Generated Summary: Main switchboard has intermittent power loss. Check bus bars, circuit breakers, and wiring. Test insulation resistance and replace faulty parts. Verify redundancy systems. Birdwatching is relaxing.
+
+Generated Description: "The main switchboard is experiencing intermittent power loss. A thorough inspection of all bus bars, circuit breakers, and wiring is required. Insulation resistance testing should be conducted, and any faulty parts must be replaced. Verification of redundancy systems is also necessary."
+
+Actual Description: Main switchboard experiencing intermittent power losses. Inspect all bus bars, circuit breakers, and wiring for faults. Conduct insulation resistance testing. Replace any defective components. Ensure redundancy systems are operational.
+
+ROUGE Score: {'rouge1': Score(precision=0.5365853658536586, recall=0.7586206896551724, fmeasure=0.6285714285714286), 'rouge2': Score(precision=0.325, recall=0.4642857142857143, fmeasure=0.3823529411764706), 'rougeL': Score(precision=0.4878048780487805, recall=0.6896551724137931, fmeasure=0.5714285714285714)}
+BERT Score: {'precision': 0.9271111488342285, 'recall': 0.9440749883651733, 'f1': 0.9355161786079407}
+
+-----------------------------------------
+
+Generated Summary: HF radio showing static and signal loss. Check antenna and feed lines for issues, test and recalibrate, replace faulty parts.
+
+Generated Description: "HF radio communication system is experiencing static and signal loss. Inspection of antenna connections and feed lines for potential issues is required. Testing and recalibration of the radio equipment should be conducted, and any faulty components identified during testing need to be replaced."
+
+Actual Description: HF radio communication system experiencing static and signal dropouts. Inspect antenna connections and feed lines for damage. Test and recalibrate radio equipment. Replace any faulty components identified during testing.
+
+ROUGE Score: {'rouge1': Score(precision=0.627906976744186, recall=0.9310344827586207, fmeasure=0.7499999999999999), 'rouge2': Score(precision=0.4523809523809524, recall=0.6785714285714286, fmeasure=0.5428571428571429), 'rougeL': Score(precision=0.6046511627906976, recall=0.896551724137931, fmeasure=0.7222222222222221)}
+BERT Score: {'precision': 0.9238531589508057, 'recall': 0.9474785327911377, 'f1': 0.9355167150497437}
+
+-----------------------------------------
+
+Generated Summary: Ventilation in engine room noisy. Inspect, lubricate, and check for obstructions. Replace worn bearings or fans. Adding a kitten may help.
+
+Generated Description: The ventilation system in the engine room is producing unusual noise. Inspection and lubrication of all moving parts are required. Additionally, check for any loose fittings or obstructions in the ductwork and replace any worn-out bearings or fans.
+
+Actual Description: Ventilation system in engine room producing unusual noise. Inspect and lubricate all moving parts. Check for loose fittings or obstructions in ductwork. Replace any worn-out bearings or fans.
+
+ROUGE Score: {'rouge1': Score(precision=0.7435897435897436, recall=1.0, fmeasure=0.8529411764705882), 'rouge2': Score(precision=0.5526315789473685, recall=0.75, fmeasure=0.6363636363636364), 'rougeL': Score(precision=0.7435897435897436, recall=1.0, fmeasure=0.8529411764705882)}
+BERT Score: {'precision': 0.9492923021316528, 'recall': 0.9654321670532227, 'f1': 0.957294225692749}
+
+-----------------------------------------
+
+Generated Summary: Life raft system corroded and worn. Inspect, maintain, replace parts, and test deployment.
+
+Generated Description: "The life raft deployment system is showing signs of corrosion and wear. A full inspection and necessary maintenance are required. Damaged components need to be replaced, and the proper operation must be verified through deployment tests."
+
+Actual Description: Life raft deployment system showing signs of corrosion and wear. Conduct full inspection and perform necessary maintenance. Replace damaged components. Verify proper operation through deployment tests.
+
+ROUGE Score: {'rouge1': Score(precision=0.6666666666666666, recall=0.9230769230769231, fmeasure=0.7741935483870968), 'rouge2': Score(precision=0.42857142857142855, recall=0.6, fmeasure=0.5), 'rougeL': Score(precision=0.6111111111111112, recall=0.8461538461538461, fmeasure=0.7096774193548387)}
+BERT Score: {'precision': 0.9245638847351074, 'recall': 0.9461535215377808, 'f1': 0.9352341294288635}
+
+-----------------------------------------
+
+Generated Summary: Secondary hydraulic system losing pressure. Check for leaks and test the pump. Replace defective parts, then refill and bleed fluid as necessary. High-five required for completion.
+
+Generated Description: "The secondary hydraulic system is losing pressure. It is necessary to check for leaks and test the pump. Defective parts should be replaced, and the fluid should be refilled and bled as necessary."
+
+Actual Description: Secondary hydraulic system experiencing pressure drops. Inspect all hydraulic lines and connections for leaks. Test hydraulic pump performance. Replace any faulty hoses or seals. Refill and bleed hydraulic fluid as needed.
+
+ROUGE Score: {'rouge1': Score(precision=0.42424242424242425, recall=0.45161290322580644, fmeasure=0.4375), 'rouge2': Score(precision=0.125, recall=0.13333333333333333, fmeasure=0.12903225806451615), 'rougeL': Score(precision=0.36363636363636365, recall=0.3870967741935484, fmeasure=0.37500000000000006)}
+BERT Score: {'precision': 0.9087264537811279, 'recall': 0.9168739318847656, 'f1': 0.9127820134162903}
+
+-----------------------------------------
+
+Generated Summary: Crew quarters lighting flickers. Inspect fixtures, bulbs, and wiring. Ensure functionality after repair.
+
+Generated Description: "Crew quarters lighting flickers. Inspect fixtures, bulbs, and wiring. Ensure functionality after repair."
+
+Actual Description: Interior lighting in crew quarters flickering. Inspect and replace faulty light fixtures or bulbs. Check electrical wiring for loose connections or damage. Ensure proper operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.8461538461538461, recall=0.4074074074074074, fmeasure=0.5499999999999999), 'rouge2': Score(precision=0.16666666666666666, recall=0.07692307692307693, fmeasure=0.10526315789473684), 'rougeL': Score(precision=0.6923076923076923, recall=0.3333333333333333, fmeasure=0.45)}
+BERT Score: {'precision': 0.9273368120193481, 'recall': 0.9060312509536743, 'f1': 0.9165602326393127}
+
+-----------------------------------------
+
+Generated Summary: Output: Main engine turbocharger vibrating excessively. Inspect and balance, replace damaged bearings, and ensure proper function.
+
+Generated Description: "The main engine turbocharger is vibrating excessively. This issue requires a thorough inspection and balancing of the turbocharger. Any damaged bearings should be replaced to ensure proper function."
+
+Actual Description: Main engine turbocharger exhibiting excessive vibration. Inspect turbocharger and associated components. Balance turbocharger if needed. Replace any worn or damaged bearings. Ensure proper operation after maintenance.
+
+ROUGE Score: {'rouge1': Score(precision=0.5357142857142857, recall=0.5769230769230769, fmeasure=0.5555555555555555), 'rouge2': Score(precision=0.14814814814814814, recall=0.16, fmeasure=0.15384615384615383), 'rougeL': Score(precision=0.4642857142857143, recall=0.5, fmeasure=0.4814814814814815)}
+BERT Score: {'precision': 0.9120453000068665, 'recall': 0.922883927822113, 'f1': 0.9174326062202454}
+
+-----------------------------------------
+
+Generated Summary: Ballast control panel erratic. Check electrical links and circuitry, replace sensors or wiring, and test the system post-repair. Don’t forget to clean the coffee pot.
+
+Generated Description: "The ballast control panel is showing erratic readings. Electrical connections and control circuitry need to be inspected. Faulty sensors or wiring should be replaced as needed. The system must be tested for functionality after repairs."
+
+Actual Description: Ballast system control panel showing erratic readings. Inspect electrical connections and control circuitry. Replace faulty sensors or wiring as needed. Test system functionality after repairs.
+
+ROUGE Score: {'rouge1': Score(precision=0.6857142857142857, recall=0.96, fmeasure=0.7999999999999999), 'rouge2': Score(precision=0.38235294117647056, recall=0.5416666666666666, fmeasure=0.44827586206896547), 'rougeL': Score(precision=0.6, recall=0.84, fmeasure=0.7000000000000001)}
+BERT Score: {'precision': 0.9317762851715088, 'recall': 0.9507482051849365, 'f1': 0.9411666393280029}
+
+-----------------------------------------
+
+Generated Summary: Flight deck non-skid surface is deteriorated. Remove old material, reapply new coating, and ensure proper curing. Confirm uniformity and texture. Bananas are tasty.
+
+Generated Description: "The non-skid surface on the flight deck is deteriorated. The old material needs to be removed, a new coating applied, and proper curing ensured. Uniformity and texture must be confirmed."
+
+Actual Description: Non-skid surface on flight deck worn and peeling. Remove old non-skid material and prepare surface for new application. Apply new non-skid coating and allow proper curing time. Verify uniform application and texture.
+
+ROUGE Score: {'rouge1': Score(precision=0.5806451612903226, recall=0.5142857142857142, fmeasure=0.5454545454545455), 'rouge2': Score(precision=0.2, recall=0.17647058823529413, fmeasure=0.18750000000000003), 'rougeL': Score(precision=0.5161290322580645, recall=0.45714285714285713, fmeasure=0.4848484848484849)}
+BERT Score: {'precision': 0.9242732524871826, 'recall': 0.9137473702430725, 'f1': 0.9189802408218384}
+
+-----------------------------------------
+
+Generated Summary: Satellite communication system unstable. Inspect and test hardware, replace faulty parts, and verify full functionality.
+
+Generated Description: "Satellite communication system failing to establish a stable connection. Inspect and test satellite dish and associated hardware. Replace any defective components. Verify full system functionality after repairs."
+
+Actual Description: Satellite communication system failing to establish stable connection. Inspect and test satellite dish and associated hardware. Replace any defective components. Verify full system functionality after repairs.
+
+ROUGE Score: {'rouge1': Score(precision=0.9629629629629629, recall=1.0, fmeasure=0.9811320754716981), 'rouge2': Score(precision=0.9230769230769231, recall=0.96, fmeasure=0.9411764705882353), 'rougeL': Score(precision=0.9629629629629629, recall=1.0, fmeasure=0.9811320754716981)}
+BERT Score: {'precision': 0.9754029512405396, 'recall': 0.980602502822876, 'f1': 0.9779958128929138}
+
+-----------------------------------------
+
+Generated Summary: Fuel pump noise detected. Check for blockages or damage, replace parts as needed, and test after repair.
+
+Generated Description: "Fuel pump noise detected. Inspect the pump and associated piping for blockages or damage. Replace any worn or damaged components. Test the pump operation post-repair."
+
+Actual Description: Fuel transfer pump making abnormal noise during operation. Inspect pump and associated piping for blockages or damage. Replace any worn or damaged components. Test pump operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.8846153846153846, recall=0.8214285714285714, fmeasure=0.8518518518518519), 'rouge2': Score(precision=0.68, recall=0.6296296296296297, fmeasure=0.6538461538461539), 'rougeL': Score(precision=0.8846153846153846, recall=0.8214285714285714, fmeasure=0.8518518518518519)}
+BERT Score: {'precision': 0.9613094329833984, 'recall': 0.9570643305778503, 'f1': 0.9591821432113647}
+
+-----------------------------------------
+
+Generated Summary: Fire extinguisher brackets in galley rusting. Treat rust and replace badly corroded parts. Ensure secure mounting.
+
+Generated Description: "Fire extinguisher mounting brackets in the galley area are showing signs of rust. Rust needs to be treated, and any severely corroded brackets should be replaced. It is essential to ensure all fire extinguishers are securely mounted."
+
+Actual Description: Fire extinguisher mounting brackets in galley area showing signs of rust. Remove rust and apply anti-corrosion treatment. Replace any severely corroded brackets. Ensure all fire extinguishers are securely mounted.
+
+ROUGE Score: {'rouge1': Score(precision=0.6756756756756757, recall=0.8333333333333334, fmeasure=0.746268656716418), 'rouge2': Score(precision=0.4722222222222222, recall=0.5862068965517241, fmeasure=0.523076923076923), 'rougeL': Score(precision=0.6486486486486487, recall=0.8, fmeasure=0.7164179104477612)}
+BERT Score: {'precision': 0.9421467185020447, 'recall': 0.9465447664260864, 'f1': 0.944340705871582}
+
+-----------------------------------------
+
+Generated Summary: Main generator underperforming. Inspect, clean, and recalibrate parts. Post-repair output check needed.
+
+Generated Description: "The main generator is underperforming and failing to reach its full output capacity. Inspection, cleaning, and recalibration of generator components are required. A post-repair output check is necessary to ensure proper functionality."
+
+Actual Description: Main generator failing to reach full output capacity. Inspect and clean generator components. Test and recalibrate voltage regulator. Replace any faulty parts. Verify generator output post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.5454545454545454, recall=0.6666666666666666, fmeasure=0.6), 'rouge2': Score(precision=0.28125, recall=0.34615384615384615, fmeasure=0.3103448275862069), 'rougeL': Score(precision=0.45454545454545453, recall=0.5555555555555556, fmeasure=0.5)}
+BERT Score: {'precision': 0.9108980894088745, 'recall': 0.9232228994369507, 'f1': 0.9170191287994385}
+
+-----------------------------------------
+
+Generated Summary: Battery backup failing to hold charge. Inspect and test all batteries, replace any defective cells. Verify charging system and functionality post-maintenance. Also, check the anchor chain for rust.
+
+Generated Description: "Battery backup system is failing to hold charge. Inspection and testing of all batteries are required, with replacement of any defective cells. Verification of the charging system and functionality post-maintenance is necessary. Additionally, the anchor chain needs to be checked for rust."
+
+Actual Description: Battery backup system not holding charge. Inspect and test all batteries. Replace any defective cells. Check charging system for proper operation. Verify backup system functionality after maintenance.
+
+ROUGE Score: {'rouge1': Score(precision=0.46511627906976744, recall=0.7407407407407407, fmeasure=0.5714285714285714), 'rouge2': Score(precision=0.23809523809523808, recall=0.38461538461538464, fmeasure=0.2941176470588235), 'rougeL': Score(precision=0.4186046511627907, recall=0.6666666666666666, fmeasure=0.5142857142857143)}
+BERT Score: {'precision': 0.9082642793655396, 'recall': 0.9412751793861389, 'f1': 0.9244751334190369}
+
+-----------------------------------------
+
+Generated Summary: Anchor windlass motor showing wear. Inspect and repair motor and gearbox. Lubricate parts and replace worn components. Test functionality afterward. Also, someone brought snacks.
+
+Generated Description: "The anchor windlass motor is showing signs of wear. An inspection and repair of the motor and gearbox are required. Lubrication of moving parts and replacement of worn components are necessary. Functionality needs to be tested post-repair."
+
+Actual Description: Anchor windlass motor exhibiting signs of wear. Inspect motor and gearbox for damage. Lubricate moving parts and replace worn components. Test windlass operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.5263157894736842, recall=0.8, fmeasure=0.6349206349206348), 'rouge2': Score(precision=0.2972972972972973, recall=0.4583333333333333, fmeasure=0.36065573770491804), 'rougeL': Score(precision=0.5263157894736842, recall=0.8, fmeasure=0.6349206349206348)}
+BERT Score: {'precision': 0.923814594745636, 'recall': 0.9372767210006714, 'f1': 0.9304969906806946}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump system not activating automatically. Check float switches and control circuitry for faults, replace any defective parts, and test both automatic and manual activation. Also, the sky is blue.
+
+Generated Description: "Bilge pump system is not activating automatically. Inspection of float switches and control circuitry is required to identify any faults. Defective parts need to be replaced, and both automatic and manual activation of the bilge pumps should be tested."
+
+Actual Description: Bilge pump system failing to activate automatically. Inspect float switches and control circuitry. Replace any defective components. Test automatic and manual activation of bilge pumps.
+
+ROUGE Score: {'rouge1': Score(precision=0.5897435897435898, recall=0.92, fmeasure=0.71875), 'rouge2': Score(precision=0.34210526315789475, recall=0.5416666666666666, fmeasure=0.4193548387096774), 'rougeL': Score(precision=0.5128205128205128, recall=0.8, fmeasure=0.625)}
+BERT Score: {'precision': 0.927286684513092, 'recall': 0.9547638297080994, 'f1': 0.9408246874809265}
+
+-----------------------------------------
+
+Generated Summary: HVAC heat exchanger clogged. Perform inspection and cleaning. Replace damaged parts and test system.
+
+Generated Description: "The HVAC heat exchanger is clogged, necessitating an inspection and cleaning. Any damaged parts, such as fins or tubing, need to be replaced, followed by a performance test of the HVAC system."
+
+Actual Description: Heat exchanger for HVAC system clogged. Inspect and clean heat exchanger. Replace any damaged fins or tubing. Test HVAC system performance post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.53125, recall=0.7391304347826086, fmeasure=0.6181818181818182), 'rouge2': Score(precision=0.22580645161290322, recall=0.3181818181818182, fmeasure=0.2641509433962264), 'rougeL': Score(precision=0.4375, recall=0.6086956521739131, fmeasure=0.5090909090909091)}
+BERT Score: {'precision': 0.9110100269317627, 'recall': 0.9326690435409546, 'f1': 0.9217122793197632}
+
+-----------------------------------------
+
+Generated Summary: Intercoms in common areas causing feedback. Inspect and test units. Replace faulty parts and ensure clear communication. Also, remember to enjoy your day.
+
+Generated Description: "Intercom system in common areas is causing feedback noise. Inspection and testing of intercom units and wiring are required. Faulty components need to be replaced to ensure clear communication."
+
+Actual Description: Intercom system in common areas producing feedback noise. Inspect and test intercom units and wiring. Replace any faulty components. Verify clear communication after repairs.
+
+ROUGE Score: {'rouge1': Score(precision=0.6551724137931034, recall=0.7916666666666666, fmeasure=0.7169811320754716), 'rouge2': Score(precision=0.4642857142857143, recall=0.5652173913043478, fmeasure=0.5098039215686274), 'rougeL': Score(precision=0.6206896551724138, recall=0.75, fmeasure=0.679245283018868)}
+BERT Score: {'precision': 0.9390595555305481, 'recall': 0.9445379376411438, 'f1': 0.941790759563446}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic pressure uneven. Check pump and seals. Inspect and test pump, replace seals if needed. Ensure stable pressure after repair.
+
+Generated Description: "Hydraulic pressure is uneven, indicating potential issues with the pump or seals. A thorough inspection and testing of the pump are required, and seals should be replaced if necessary to ensure stable pressure."
+
+Actual Description: Hydraulic system pressure inconsistent. Suspect malfunction in hydraulic pump or seals. Inspect and test pump performance. Replace seals if necessary. Verify system pressure stability post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.42424242424242425, recall=0.5384615384615384, fmeasure=0.47457627118644075), 'rouge2': Score(precision=0.15625, recall=0.2, fmeasure=0.17543859649122806), 'rougeL': Score(precision=0.3939393939393939, recall=0.5, fmeasure=0.4406779661016949)}
+BERT Score: {'precision': 0.9047524929046631, 'recall': 0.9168557524681091, 'f1': 0.9107639193534851}
+
+-----------------------------------------
+
+Generated Summary: Cabin lights flicker off and on. Check wiring, secure connections, and replace faulty fixtures. Test system to ensure fix. Also, consider bringing snacks.
+
+Generated Description: "Cabin lights flicker off and on. This may be due to loose wiring or faulty light fixtures. It is necessary to inspect and secure all connections and replace any defective fixtures. Testing the lighting system post-repair is essential to confirm the resolution."
+
+Actual Description: Cabin lighting flickering intermittently. Possible loose wiring or faulty light fixtures. Inspect and secure all connections. Replace any defective fixtures. Test lighting system to confirm resolution.
+
+ROUGE Score: {'rouge1': Score(precision=0.5581395348837209, recall=0.9230769230769231, fmeasure=0.6956521739130436), 'rouge2': Score(precision=0.40476190476190477, recall=0.68, fmeasure=0.5074626865671642), 'rougeL': Score(precision=0.5581395348837209, recall=0.9230769230769231, fmeasure=0.6956521739130436)}
+BERT Score: {'precision': 0.9143579602241516, 'recall': 0.95222008228302, 'f1': 0.9329050183296204}
+
+-----------------------------------------
+
+Generated Summary: Main engine oil pressure is too low. Inspect and fix oil pump and sensors urgently, then verify pressure.
+
+Generated Description: "Main engine oil pressure is dropping below operational levels. Immediate inspection is required to identify the source of the pressure loss. Check the oil pump and pressure sensors, and replace any faulty components. Verify oil pressure post-repair."
+
+Actual Description: Main engine oil pressure dropping below operational levels. Immediate inspection required to identify source of pressure loss. Check oil pump and pressure sensors. Replace faulty components. Verify oil pressure post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.8157894736842105, recall=1.0, fmeasure=0.898550724637681), 'rouge2': Score(precision=0.6216216216216216, recall=0.7666666666666667, fmeasure=0.6865671641791045), 'rougeL': Score(precision=0.8157894736842105, recall=1.0, fmeasure=0.898550724637681)}
+BERT Score: {'precision': 0.9564639329910278, 'recall': 0.9736106395721436, 'f1': 0.9649611115455627}
+
+-----------------------------------------
+
+Generated Summary: Life raft mechanism stiff. Inspect, lubricate, and replace worn parts. Test deployment.
+
+Generated Description: The life raft deployment mechanism is stiff and difficult to operate. It requires inspection and lubrication of all moving parts. Any worn or corroded components should be replaced to ensure the mechanism operates smoothly. A deployment test should be conducted to verify proper function.
+
+Actual Description: Life raft deployment mechanism stiff and difficult to operate. Inspect and lubricate all moving parts. Ensure mechanism operates smoothly. Replace any worn or corroded components. Conduct deployment test.
+
+ROUGE Score: {'rouge1': Score(precision=0.6363636363636364, recall=1.0, fmeasure=0.7777777777777778), 'rouge2': Score(precision=0.4186046511627907, recall=0.6666666666666666, fmeasure=0.5142857142857143), 'rougeL': Score(precision=0.5, recall=0.7857142857142857, fmeasure=0.6111111111111112)}
+BERT Score: {'precision': 0.9270021915435791, 'recall': 0.951112687587738, 'f1': 0.9389026165008545}
+
+-----------------------------------------
+
+Generated Summary: Engine room fan is noisy, likely due to bearing wear or imbalance. Inspect and lubricate bearings, balance blades, and test operation after maintenance.
+
+Generated Description: "The engine room fan is producing excessive noise, likely due to bearing wear or imbalance. Inspection and lubrication of the bearings are required, along with balancing the fan blades. Testing the fan operation post-maintenance is necessary."
+
+Actual Description: Ventilation fan in engine room making excessive noise. Possible bearing wear or imbalance. Inspect and lubricate bearings. Balance fan blades if necessary. Test fan operation post-service.
+
+ROUGE Score: {'rouge1': Score(precision=0.5675675675675675, recall=0.7777777777777778, fmeasure=0.65625), 'rouge2': Score(precision=0.3055555555555556, recall=0.4230769230769231, fmeasure=0.3548387096774194), 'rougeL': Score(precision=0.5135135135135135, recall=0.7037037037037037, fmeasure=0.59375)}
+BERT Score: {'precision': 0.9239768981933594, 'recall': 0.9412336945533752, 'f1': 0.9325255155563354}
+
+-----------------------------------------
+
+Generated Summary: Radar signal loss detected. Inspect and test radar unit and connections, replace faulty parts, and verify performance.
+
+Generated Description: "Radar signal loss detected. The radar unit and its connections need to be inspected and tested. Any faulty parts should be replaced, and the performance of the radar must be verified."
+
+Actual Description: Radar system intermittently losing signal. Inspect and test radar unit, including antenna and connections. Replace any faulty components. Verify radar performance under various conditions.
+
+ROUGE Score: {'rouge1': Score(precision=0.4838709677419355, recall=0.625, fmeasure=0.5454545454545454), 'rouge2': Score(precision=0.13333333333333333, recall=0.17391304347826086, fmeasure=0.15094339622641512), 'rougeL': Score(precision=0.2903225806451613, recall=0.375, fmeasure=0.3272727272727273)}
+BERT Score: {'precision': 0.920691728591919, 'recall': 0.9248745441436768, 'f1': 0.9227784276008606}
+
+-----------------------------------------
+
+Generated Summary: Auxiliary generator hard to start, possibly due to fuel delivery or starter motor issues. Inspect fuel system and test starter motor for possible replacement. Ensure smooth operation. Red-colored fuel is preferred.
+
+Generated Description: "Auxiliary generator hard to start, possibly due to fuel delivery or starter motor issues. Inspection of the fuel system and testing of the starter motor are necessary to identify and resolve the problem. Ensuring the generator operates smoothly is crucial."
+
+Actual Description: Auxiliary generator difficult to start. Suspect fuel delivery issue or starter motor malfunction. Inspect fuel lines and filters. Test starter motor and replace if necessary. Verify generator starts and runs smoothly.
+
+ROUGE Score: {'rouge1': Score(precision=0.5, recall=0.6451612903225806, fmeasure=0.5633802816901409), 'rouge2': Score(precision=0.15384615384615385, recall=0.2, fmeasure=0.17391304347826086), 'rougeL': Score(precision=0.45, recall=0.5806451612903226, fmeasure=0.5070422535211268)}
+BERT Score: {'precision': 0.9181245565414429, 'recall': 0.9251890778541565, 'f1': 0.9216431975364685}
+
+-----------------------------------------
+
+Generated Summary: Galley fire extinguisher expired. Replace with certified one and update inspection logs. A cat walked by.
+
+Generated Description: "The fire extinguisher in the galley area has expired. It needs to be replaced with a certified extinguisher, and the inspection logs should be updated accordingly."
+
+Actual Description: Fire extinguisher in galley area past inspection date. Replace with new certified extinguisher. Update inspection records accordingly.
+
+ROUGE Score: {'rouge1': Score(precision=0.46153846153846156, recall=0.7058823529411765, fmeasure=0.558139534883721), 'rouge2': Score(precision=0.2, recall=0.3125, fmeasure=0.24390243902439027), 'rougeL': Score(precision=0.4230769230769231, recall=0.6470588235294118, fmeasure=0.5116279069767442)}
+BERT Score: {'precision': 0.9076395630836487, 'recall': 0.9351750612258911, 'f1': 0.9212015867233276}
+
+-----------------------------------------
+
+Generated Summary: Fuel transfer pump losing pressure. Urgent inspection needed. Examine seals and valve, replace faulty parts, and confirm functionality after. Additionally, wear a hat.
+
+Generated Description: "The fuel transfer pump is losing pressure, necessitating an urgent inspection. Examination of the seals and pressure relief valve is required, with replacement of any faulty parts. Functionality must be confirmed post-repair."
+
+Actual Description: Fuel transfer pump not maintaining pressure. Immediate inspection required to diagnose and repair. Check pump seals and pressure relief valve. Replace defective parts. Verify pump operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.45454545454545453, recall=0.5357142857142857, fmeasure=0.49180327868852464), 'rouge2': Score(precision=0.21875, recall=0.25925925925925924, fmeasure=0.23728813559322032), 'rougeL': Score(precision=0.42424242424242425, recall=0.5, fmeasure=0.4590163934426229)}
+BERT Score: {'precision': 0.9214930534362793, 'recall': 0.9351984262466431, 'f1': 0.9282951354980469}
+
+-----------------------------------------
+
+Generated Summary: Communication system has static issues. Check antenna and signal amplifier. Replace faulty parts and ensure clear channels. Hamsters are cute pets.
+
+Generated Description: "The communication system is experiencing static interference. Suspected issues with the antenna or signal amplifier. Inspection and testing of all components are required, with replacement of any faulty parts to ensure clear communication channels."
+
+Actual Description: Communication system experiencing static interference. Suspect issues with antenna or signal amplifier. Inspect and test all components. Replace any faulty parts. Verify clear communication channels.
+
+ROUGE Score: {'rouge1': Score(precision=0.7058823529411765, recall=0.96, fmeasure=0.8135593220338982), 'rouge2': Score(precision=0.5151515151515151, recall=0.7083333333333334, fmeasure=0.5964912280701754), 'rougeL': Score(precision=0.7058823529411765, recall=0.96, fmeasure=0.8135593220338982)}
+BERT Score: {'precision': 0.9398766756057739, 'recall': 0.9548667669296265, 'f1': 0.9473124146461487}
+
+-----------------------------------------
+
+Generated Summary: Crew quarters water heater not heating correctly. Check heating element and thermostat. Replace faulty parts and confirm performance. Blue paint may be necessary.
+
+Generated Description: "The water heater in the crew quarters is not heating correctly. The heating element and thermostat need to be checked, and any faulty parts should be replaced. Performance confirmation is required post-repair."
+
+Actual Description: Water heater in crew quarters not reaching set temperature. Inspect heating element and thermostat. Replace any defective components. Verify water heater performance post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.45454545454545453, recall=0.625, fmeasure=0.5263157894736842), 'rouge2': Score(precision=0.21875, recall=0.30434782608695654, fmeasure=0.2545454545454546), 'rougeL': Score(precision=0.42424242424242425, recall=0.5833333333333334, fmeasure=0.4912280701754386)}
+BERT Score: {'precision': 0.928715169429779, 'recall': 0.9433166980743408, 'f1': 0.935958981513977}
+
+-----------------------------------------
+
+Generated Summary: Engine room smoke detector unresponsive; inspection and potential replacement needed. Verify system functionality post-repair. Include sponge cake in the menu.
+
+Generated Description: "Engine room smoke detector is unresponsive and requires inspection. Replacement may be necessary. Verify the system's functionality post-repair to ensure it operates correctly."
+
+Actual Description: Smoke detector in engine room not responding to test. Inspect and replace detector if necessary. Test system to ensure proper operation.
+
+ROUGE Score: {'rouge1': Score(precision=0.48, recall=0.5714285714285714, fmeasure=0.5217391304347826), 'rouge2': Score(precision=0.125, recall=0.15, fmeasure=0.13636363636363635), 'rougeL': Score(precision=0.36, recall=0.42857142857142855, fmeasure=0.391304347826087)}
+BERT Score: {'precision': 0.9012959003448486, 'recall': 0.9158484935760498, 'f1': 0.9085139036178589}
+
+-----------------------------------------
+
+Generated Summary: Propulsion system vibrating at high speeds. Immediate inspection for shaft alignment and propeller condition needed. Repair or replace and verify smooth operation. Also, check fuel levels.
+
+Generated Description: "The propulsion system is vibrating at high speeds. Immediate inspection is required to identify the source, focusing on shaft alignment and propeller condition. Necessary repairs or replacements should be made, and smooth operation must be verified post-repair. Additionally, fuel levels need to be checked."
+
+Actual Description: Propulsion system experiencing vibration at high speeds. Immediate inspection required to identify source. Check shaft alignment and propeller condition. Replace or repair as necessary. Verify smooth operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.6, recall=0.9310344827586207, fmeasure=0.7297297297297297), 'rouge2': Score(precision=0.3181818181818182, recall=0.5, fmeasure=0.3888888888888889), 'rougeL': Score(precision=0.4888888888888889, recall=0.7586206896551724, fmeasure=0.5945945945945945)}
+BERT Score: {'precision': 0.919793963432312, 'recall': 0.9454176425933838, 'f1': 0.9324297904968262}
+
+-----------------------------------------
+
+Generated Summary: Officer's quarters power outlet not working. Check and potentially replace wiring and outlet. Verify functionality.
+
+Generated Description: "The power outlet in the officer's quarters is non-functional. Inspection of the wiring and outlet is required, with replacement if necessary. Functionality needs to be verified post-repair."
+
+Actual Description: Power outlet in officer's quarters non-functional. Inspect wiring and outlet. Replace if necessary. Test outlet to confirm functionality.
+
+ROUGE Score: {'rouge1': Score(precision=0.5666666666666667, recall=0.85, fmeasure=0.68), 'rouge2': Score(precision=0.3448275862068966, recall=0.5263157894736842, fmeasure=0.4166666666666667), 'rougeL': Score(precision=0.5333333333333333, recall=0.8, fmeasure=0.64)}
+BERT Score: {'precision': 0.9211755990982056, 'recall': 0.945054292678833, 'f1': 0.93296217918396}
+
+-----------------------------------------
+
+Generated Summary: Mess hall AC not cooling properly. Check refrigerant and compressor, clean/replace filters, and test after maintenance. Banana.
+
+Generated Description: "The air conditioning unit in the mess hall is not cooling adequately. It is necessary to inspect the refrigerant levels and the compressor, clean or replace the air filters, and test the system's performance post-maintenance."
+
+Actual Description: Air conditioning unit in mess hall not cooling adequately. Inspect refrigerant levels and compressor. Clean or replace air filters. Test system performance post-maintenance.
+
+ROUGE Score: {'rouge1': Score(precision=0.6486486486486487, recall=1.0, fmeasure=0.7868852459016393), 'rouge2': Score(precision=0.3888888888888889, recall=0.6086956521739131, fmeasure=0.47457627118644075), 'rougeL': Score(precision=0.6486486486486487, recall=1.0, fmeasure=0.7868852459016393)}
+BERT Score: {'precision': 0.9316294193267822, 'recall': 0.9626199007034302, 'f1': 0.9468711614608765}
+
+-----------------------------------------
+
+Generated Summary: Emergency exit signs in passageway not working. Replace bulbs or units and test illumination. Also, cats are cute.
+
+Generated Description: "Emergency exit signs in the passageway are not working. Replace bulbs or entire units as necessary and test to ensure proper illumination."
+
+Actual Description: Emergency exit signs in passageway not illuminating. Inspect and replace bulbs or entire units if necessary. Test to ensure proper illumination.
+
+ROUGE Score: {'rouge1': Score(precision=0.8181818181818182, recall=0.8571428571428571, fmeasure=0.8372093023255814), 'rouge2': Score(precision=0.5238095238095238, recall=0.55, fmeasure=0.5365853658536585), 'rougeL': Score(precision=0.7727272727272727, recall=0.8095238095238095, fmeasure=0.7906976744186046)}
+BERT Score: {'precision': 0.9402608275413513, 'recall': 0.9513342380523682, 'f1': 0.9457651376724243}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump operates non-stop. Check float switch and pump, replace faulty parts. Confirm pump works correctly.
+
+Generated Description: "The bilge pump operates non-stop, indicating a potential malfunction. The float switch and pump need to be inspected, and any faulty parts should be replaced. Proper pump operation must be confirmed post-repair."
+
+Actual Description: Bilge pump running continuously. Inspect float switch and pump for malfunctions. Replace any faulty components. Verify proper pump operation post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.47058823529411764, recall=0.7619047619047619, fmeasure=0.5818181818181817), 'rouge2': Score(precision=0.24242424242424243, recall=0.4, fmeasure=0.30188679245283023), 'rougeL': Score(precision=0.38235294117647056, recall=0.6190476190476191, fmeasure=0.4727272727272727)}
+BERT Score: {'precision': 0.8966324329376221, 'recall': 0.9325205683708191, 'f1': 0.91422438621521}
+
+-----------------------------------------
+
+Generated Summary: Aft intercom speakers non-functional. Check wiring and replace faulty parts. Test system after repairs.
+
+Generated Description: "The intercom system speakers in the aft section are non-functional. The issue requires an inspection of the wiring and speaker units, with replacement of any defective parts. Post-repair testing of the intercom system is necessary to ensure functionality."
+
+Actual Description: Intercom system speakers in aft section not functioning. Inspect wiring and speaker units. Replace any defective parts. Test intercom system post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.525, recall=0.9545454545454546, fmeasure=0.6774193548387099), 'rouge2': Score(precision=0.28205128205128205, recall=0.5238095238095238, fmeasure=0.36666666666666664), 'rougeL': Score(precision=0.475, recall=0.8636363636363636, fmeasure=0.6129032258064516)}
+BERT Score: {'precision': 0.9245114326477051, 'recall': 0.9527783989906311, 'f1': 0.9384321570396423}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic leak in steering gear. Requires urgent inspection and fix. Check and replace all faulty parts. Confirm system integrity after repairs. The ship's kitchen needs a new microwave.
+
+Generated Description: "Hydraulic leak in the steering gear detected. Requires urgent inspection and repair. All hydraulic lines and seals need to be checked and any faulty parts replaced. System integrity must be confirmed post-repair."
+
+Actual Description: Steering gear hydraulic leak detected. Immediate inspection and repair required. Check all hydraulic lines and seals. Replace any damaged components. Verify steering system integrity post-repair.
+
+ROUGE Score: {'rouge1': Score(precision=0.6363636363636364, recall=0.8076923076923077, fmeasure=0.7118644067796609), 'rouge2': Score(precision=0.3125, recall=0.4, fmeasure=0.3508771929824561), 'rougeL': Score(precision=0.48484848484848486, recall=0.6153846153846154, fmeasure=0.5423728813559322)}
+BERT Score: {'precision': 0.9393418431282043, 'recall': 0.954913854598999, 'f1': 0.9470638632774353}
+
+-----------------------------------------
+
+Generated Summary: Corroded handrails on main deck need inspecting, cleaning, corrosion inhibitor, and possible replacement. Also, there is a new policy on uniform colors.
+
+Generated Description: "Handrails on the main deck are corroded and require inspection for structural integrity. The handrails need to be cleaned, a corrosion inhibitor applied, and any severely damaged sections replaced."
+
+Actual Description: Handrails on main deck corroded. Inspect all handrails for structural integrity. Clean and apply corrosion inhibitor. Replace any severely damaged sections.
+
+ROUGE Score: {'rouge1': Score(precision=0.6896551724137931, recall=0.9523809523809523, fmeasure=0.7999999999999999), 'rouge2': Score(precision=0.2857142857142857, recall=0.4, fmeasure=0.3333333333333333), 'rougeL': Score(precision=0.5517241379310345, recall=0.7619047619047619, fmeasure=0.64)}
+BERT Score: {'precision': 0.928693950176239, 'recall': 0.949262261390686, 'f1': 0.9388654828071594}
+
+-----------------------------------------
+

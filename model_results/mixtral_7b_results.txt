@@ -1,0 +1,634 @@
+Department Scores:
+-----------------------------------------
+                  precision    recall  f1-score   support
+
+  Communications       1.00      1.00      1.00         3
+      Electrical       1.00      1.00      1.00        13
+     Engineering       1.00      1.00      1.00        15
+Hull Maintenance       1.00      1.00      1.00         2
+      Mechanical       1.00      1.00      1.00        14
+          Safety       1.00      1.00      1.00        13
+
+        accuracy                           1.00        60
+       macro avg       1.00      1.00      1.00        60
+    weighted avg       1.00      1.00      1.00        60
+
+
+
+-----------------------------------------
+
+Priority Scores:
+-----------------------------------------
+              precision    recall  f1-score   support
+
+        High       0.96      1.00      0.98        23
+         Low       1.00      0.21      0.35        14
+      Medium       0.67      0.96      0.79        23
+
+    accuracy                           0.80        60
+   macro avg       0.88      0.72      0.71        60
+weighted avg       0.86      0.80      0.76        60
+
+
+Generated Summary: Hydraulic pressure unstable, inspect lines for leaks and blockages. Replace seals and o-rings, flush system, and verify stability with full test. Also, it might rain tomorrow.
+
+Generated Description: "Hydraulic pressure is unstable, with potential leaks and blockages in the hydraulic lines. Worn-out seals and o-rings may contribute to the issue. A full system flush is required to remove contaminants. Post-repair, a comprehensive operational test will verify pressure stability."
+
+Actual Description: Hydraulic system pressure fluctuating beyond safe operational limits. Inspect hydraulic lines for potential leaks or blockages. Inspect and replace any worn-out seals and o-rings. Perform system flush to remove contaminants. Verify pressure stability post-repair by conducting a full operational test.
+
+BERT Score: {'precision': 0.9303709268569946, 'recall': 0.9327173829078674, 'f1': 0.9315426349639893}
+
+-----------------------------------------
+
+Generated Summary: Fuel injectors causing misfires due to inconsistent spray. Inspect, clean, or replace injectors, then test fuel system pressure.
+
+Generated Description: "The fuel injectors are causing engine misfires due to inconsistent spray patterns. Inspection, cleaning, or replacement of the injectors is required, followed by a test of the fuel system pressure to ensure proper operation."
+
+Actual Description: Main engine fuel injectors exhibiting inconsistent spray patterns leading to engine misfires. Remove and inspect injectors for clogging or damage. Clean or replace injectors as necessary. Conduct fuel system pressure test post-repair to ensure proper operation.
+
+BERT Score: {'precision': 0.9244323968887329, 'recall': 0.9147188067436218, 'f1': 0.9195500016212463}
+
+-----------------------------------------
+
+Generated Summary: Radar system suffering from power issues. Inspect and replace faulty power lines or connectors, then test for steady performance.
+
+Generated Description: "The radar system is experiencing power issues, which may be due to faulty power lines or connectors. A thorough inspection and replacement of any damaged components is required, followed by testing to ensure steady performance."
+
+Actual Description: Primary radar system experiencing intermittent power loss. Conduct a thorough inspection of power supply lines and connections for potential shorts or corrosion. Replace any damaged components. Test radar functionality post-repair to ensure consistent power delivery.
+
+BERT Score: {'precision': 0.913524329662323, 'recall': 0.9186016321182251, 'f1': 0.9160559177398682}
+
+-----------------------------------------
+
+Generated Summary: Automatic release on life raft is faulty. Inspect and fix or replace parts. Perform an operational test for emergency readiness.
+
+Generated Description: "The automatic release mechanism on the life raft is faulty and needs inspection. Any worn-out or damaged parts should be repaired or replaced. A comprehensive operational test is required to ensure the life raft's readiness for emergency situations."
+
+Actual Description: Life raft automatic release mechanism malfunctioning. Inspect mechanical and electronic components for wear or damage. Repair or replace faulty parts. Conduct a full operational test to ensure proper release functionality in emergency situations.
+
+BERT Score: {'precision': 0.901268482208252, 'recall': 0.9126007556915283, 'f1': 0.9068992733955383}
+
+-----------------------------------------
+
+Generated Summary: Ventilation system in engine room isn't working well. Check ducts for issues, clean or replace filters. Verify fan and electrical connections to restore performance.
+
+Generated Description: "The ventilation system in the engine room is not functioning optimally. Inspection of ductwork is required to identify any issues, followed by cleaning or replacement of air filters. Verification of fan operation and electrical connections is also needed to restore the system to its optimal performance levels."
+
+Actual Description: Ventilation system in engine room not maintaining proper airflow. Inspect ductwork for blockages or damage. Clean or replace air filters. Verify fan operation and electrical connections. Ensure system is restored to optimal performance levels.
+
+BERT Score: {'precision': 0.9188898205757141, 'recall': 0.9326590299606323, 'f1': 0.9257231950759888}
+
+-----------------------------------------
+
+Generated Summary: Anchor windlass motor overheating, inspect windings for wear. Ensure lubrication and cooling are adequate. Repair or replace parts as needed. Test motor under load. Also, check for peanut butter in the area.
+
+Generated Description: "The Anchor windlass motor is overheating, indicating potential issues with the motor windings. It is necessary to inspect the windings for signs of excessive wear or damage. Additionally, the lubrication levels and cooling system functionality must be checked to ensure they are adequate. Repair or replacement of components may be required as necessary. Post-repair, the motor should be tested under load to confirm proper operation."
+
+Actual Description: Anchor windlass motor overheating during operation. Inspect motor windings for signs of excessive wear or damage. Check lubrication levels and cooling system functionality. Repair or replace components as needed. Test motor under load to confirm proper operation.
+
+BERT Score: {'precision': 0.9099243879318237, 'recall': 0.9416779279708862, 'f1': 0.925528883934021}
+
+-----------------------------------------
+
+Generated Summary: Signal loss in the communication system. Check antenna and cables for damage or corrosion; replace faulty parts. Test the system for reliability.
+
+Generated Description: "The communication system is experiencing signal loss. It is necessary to inspect the antenna and cables for any damage or corrosion, replace any faulty components, and conduct system tests to ensure reliable communication channels."
+
+Actual Description: Communication system experiencing intermittent signal loss. Inspect antenna connections and cabling for potential damage or corrosion. Replace any faulty components. Conduct system tests to ensure reliable communication channels.
+
+BERT Score: {'precision': 0.9396390914916992, 'recall': 0.9439218044281006, 'f1': 0.9417756199836731}
+
+-----------------------------------------
+
+Generated Summary: Fire alarm panel triggering false alarms. Inspect and test detectors, replace faulty ones, verify panel functionality, and reset system. Conduct a full system test for reliability. The crew favorite movie is Top Gun.
+
+Generated Description: "The fire alarm panel is triggering false alarms in various zones. This issue necessitates inspecting and testing all fire detectors for proper operation, replacing any defective alarms, verifying the panel's functionality, and resetting the system. A full system test is required to ensure reliability and prevent potential safety hazards."
+
+Actual Description: Fire alarm panel showing false alarms in multiple zones. Inspect and test all fire detectors for proper operation. Replace any defective alarms. Verify panel functionality and reset system. Conduct a full system test to ensure reliability.
+
+BERT Score: {'precision': 0.9158077239990234, 'recall': 0.9491674900054932, 'f1': 0.9321892857551575}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump running below capacity. Inspect intake for debris and replace worn impeller and seals. Test after maintenance.
+
+Generated Description: "The bilge pump is running below its normal capacity. Inspection of the intake for debris, replacement of the worn-out impeller, and changing of the seals are required. Post-maintenance testing will ensure proper bilge water removal."
+
+Actual Description: Bilge pump operating at reduced capacity. Inspect and clean pump intake for debris. Check and replace worn-out impeller and seals. Test pump performance post-maintenance to ensure proper bilge water removal.
+
+BERT Score: {'precision': 0.9222825765609741, 'recall': 0.9344369769096375, 'f1': 0.9283199906349182}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic leak at rudder actuator identified. Inspect and replace faulty lines and fittings. Refill and bleed system, then verify steering. Also, consider upgrading the coffee maker.
+
+Generated Description: "A hydraulic leak has been identified at the rudder actuator. This requires immediate inspection and replacement of any faulty hydraulic lines and fittings. Following the repairs, the system must be refilled with hydraulic fluid, bled, and verified to ensure proper steering function."
+
+Actual Description: Steering system hydraulic leak detected at rudder actuator. Inspect hydraulic lines and fittings for damage or wear. Replace defective components. Refill hydraulic fluid and bleed system. Verify steering response post-repair.
+
+BERT Score: {'precision': 0.9139207601547241, 'recall': 0.9268043637275696, 'f1': 0.9203174710273743}
+
+-----------------------------------------
+
+Generated Summary: Crew quarters lighting flickering, check wiring and fixtures for issues. Replace faulty parts and test.
+
+Generated Description: "The lighting in the crew quarters is flickering, indicating potential issues with the wiring or light fixtures. Inspection and replacement of any faulty components are necessary, followed by testing the lighting circuit under load to ensure stability."
+
+Actual Description: Internal lighting circuit in crew quarters flickering. Inspect wiring and light fixtures for loose connections or corrosion. Replace any damaged components. Test lighting circuit under load to ensure stability.
+
+BERT Score: {'precision': 0.9127263426780701, 'recall': 0.9293602705001831, 'f1': 0.920968234539032}
+
+-----------------------------------------
+
+Generated Summary: Emergency generator failing in drills. Inspect and clear fuel system, check battery and connections, replace faulty parts, and test start-up reliability. Apples are tasty.
+
+Generated Description: The emergency generator is failing during drills. This issue necessitates inspecting and clearing the fuel system for blockages or contamination, checking battery charge and electrical connections, replacing faulty components, and conducting a start-up test to ensure generator reliability.
+
+Actual Description: Emergency generator not starting during drills. Inspect fuel system for blockages or contamination. Check battery charge and electrical connections. Repair or replace defective components. Conduct start-up test to ensure generator reliability.
+
+BERT Score: {'precision': 0.9332046508789062, 'recall': 0.951209306716919, 'f1': 0.9421209692955017}
+
+-----------------------------------------
+
+Generated Summary: Seawater cooling system flow reduction. Inspect intake screens, pumps, and impellers. Flush system and confirm flow rate.
+
+Generated Description: The seawater cooling system is experiencing a reduction in flow. Inspection of intake screens, pumps, and impellers is required. The system also needs to be flushed to remove any scale and marine growth. Post-maintenance, the flow rate should be confirmed.
+
+Actual Description: Seawater cooling system experiencing reduced flow. Inspect intake screens for blockages. Check pump operation and replace any worn-out impellers. Flush system to remove scale and marine growth. Verify flow rate post-maintenance.
+
+BERT Score: {'precision': 0.9315168857574463, 'recall': 0.9298754930496216, 'f1': 0.9306954741477966}
+
+-----------------------------------------
+
+Generated Summary: Propulsion shaft vibrating too much. Check and realign shaft, replace worn bearings, and test system under load.
+
+Generated Description: "The propulsion shaft is vibrating excessively, indicating potential misalignment and worn bearings. Immediate inspection and action are required to prevent further mechanical failures."
+
+Actual Description: Main propulsion shaft exhibiting excessive vibration. Conduct alignment check and inspect bearings for wear. Replace damaged bearings and re-align shaft. Test propulsion system under load to confirm vibration is within acceptable limits.
+
+BERT Score: {'precision': 0.885549008846283, 'recall': 0.8871117234230042, 'f1': 0.886329710483551}
+
+-----------------------------------------
+
+Generated Summary: Battery backup failing. Inspect cells, replace faulty batteries, and verify charging system. Test under load. Intriguing.
+
+Generated Description: "The battery backup system is failing. This requires immediate inspection of individual cells, replacement of any faulty batteries, and verification of the charging system's functionality. A test under load conditions is also necessary."
+
+Actual Description: Battery backup system for critical electronics not holding charge. Inspect and test battery cells. Replace any faulty batteries. Verify charging system functionality. Test backup system under simulated load conditions.
+
+BERT Score: {'precision': 0.8995541930198669, 'recall': 0.9187973737716675, 'f1': 0.9090740084648132}
+
+-----------------------------------------
+
+Generated Summary: CO2 fire suppression system tanks need inspection for leaks and pressure checks. Refill or replace as needed and conduct activation test to ensure functionality.
+
+Generated Description: "The CO2 fire suppression system tanks have been identified as requiring inspection for potential leaks and pressure checks. Necessary actions include refilling or replacing tanks as needed and conducting an activation test to ensure system functionality."
+
+Actual Description: CO2 fire suppression system showing low pressure in storage tanks. Inspect tanks for leaks and verify pressure readings. Refill or replace tanks as necessary. Conduct system test to ensure proper activation in case of a fire.
+
+BERT Score: {'precision': 0.8985959887504578, 'recall': 0.9202280640602112, 'f1': 0.9092833995819092}
+
+-----------------------------------------
+
+Generated Summary: Fuel pump is not working continuously. Check motor, electrical connections, and clean filters. Replace worn parts and test under load.
+
+Generated Description: The fuel pump is not working continuously, indicating a potential issue with the motor or electrical connections. It is also necessary to clean the fuel filters and replace any worn-out components to ensure proper fuel transfer.
+
+Actual Description: Fuel transfer pump operating intermittently. Inspect pump motor and electrical connections for faults. Check and clean fuel filters. Replace any worn-out components. Test pump operation under load to ensure reliable fuel transfer.
+
+BERT Score: {'precision': 0.9160864949226379, 'recall': 0.9124062657356262, 'f1': 0.914242684841156}
+
+-----------------------------------------
+
+Generated Summary: Port stabilizer actuator leaking oil; inspect and replace seals and hydraulic lines. Refill fluid and confirm fix with test.
+
+Generated Description: "The port stabilizer actuator is leaking oil, indicating issues with the seals and hydraulic lines. Inspection and replacement of defective components are necessary. After refilling the hydraulic fluid and bleeding the system, a test should be conducted to confirm the leak is resolved."
+
+Actual Description: Port side stabilizer fin hydraulic actuator leaking oil. Inspect actuator seals and hydraulic lines for damage. Replace defective components. Refill hydraulic fluid and bleed system. Test stabilizer operation to confirm leak is resolved.
+
+BERT Score: {'precision': 0.9103844165802002, 'recall': 0.9288889765739441, 'f1': 0.9195435643196106}
+
+-----------------------------------------
+
+Generated Summary: Intercom system has static; inspect and replace damaged wiring and components for clear communication.
+
+Generated Description: "The intercom system is experiencing static interference, impairing clear communication. This issue necessitates an inspection and replacement of any damaged wiring and components."
+
+Actual Description: Internal communication system experiencing static interference. Inspect intercom wiring and connections for damage. Replace any corroded or faulty components. Conduct system tests to ensure clear communication channels.
+
+BERT Score: {'precision': 0.9159157276153564, 'recall': 0.9127470254898071, 'f1': 0.9143286347389221}
+
+-----------------------------------------
+
+Generated Summary: Fire main piping corroded and leaking. Inspect and repair system, followed by pressure testing. Document all work.
+
+Generated Description: "Fire main piping has been identified with corrosion and leakage issues. An inspection of the entire fire main system is required to assess its integrity. Any corroded sections need to be repaired or replaced, followed by pressure testing the system to ensure no further leaks."
+
+Actual Description: Fire main piping showing signs of corrosion and leakage. Inspect entire fire main system for integrity. Repair or replace corroded sections. Pressure test the system to ensure no leaks. Document all repairs and inspections.
+
+BERT Score: {'precision': 0.9160218834877014, 'recall': 0.9340274333953857, 'f1': 0.9249370694160461}
+
+-----------------------------------------
+
+Generated Summary: Propulsion engine has fuel injection problems. Inspect and clean or replace injectors. Check and calibrate fuel pump. Verify system performance post-repair. The recreation center needs new tennis balls.
+
+Generated Description: "Propulsion engine is experiencing fuel injection problems. Detailed inspection of fuel injectors and fuel lines is required. Clogged injectors need to be cleaned or replaced. Fuel pump operation should be checked and calibrated as necessary. System performance must be verified after repairs."
+
+Actual Description: Main propulsion engine experiencing fuel injection issues. Conduct detailed inspection of fuel injectors and fuel lines. Clean or replace clogged injectors. Check fuel pump operation and calibrate as needed. Verify system performance after repairs.
+
+BERT Score: {'precision': 0.9398745894432068, 'recall': 0.9504619836807251, 'f1': 0.945138692855835}
+
+-----------------------------------------
+
+Generated Summary: Corrosion found on starboard hull. Sandblast, prime, and topcoat affected area. Ensure no further issues.
+
+Generated Description: "Corrosion has been discovered on the starboard hull, which needs to be addressed to prevent further deterioration. The affected area should be sandblasted, primed, and topcoated to ensure no further corrosion occurs."
+
+Actual Description: Minor corrosion observed on starboard hull plating near waterline. Sandblast affected area and apply anti-corrosion primer. Follow up with appropriate topcoat. Verify no further corrosion is present.
+
+BERT Score: {'precision': 0.9070805311203003, 'recall': 0.9110063314437866, 'f1': 0.9090391993522644}
+
+-----------------------------------------
+
+Generated Summary: Main switchboard has sporadic power issues. Inspect bus bars, circuit breakers, and wiring. Test insulation resistance and replace faulty parts. Ensure redundancy systems work.
+
+Generated Description: The main switchboard is experiencing sporadic power issues. Inspection of bus bars, circuit breakers, and wiring is required to identify any faults. Testing insulation resistance and replacing faulty components are necessary to restore normal functionality. Additionally, it is crucial to ensure that redundancy systems are operational to prevent potential system failures.
+
+Actual Description: Main switchboard experiencing intermittent power losses. Inspect all bus bars, circuit breakers, and wiring for faults. Conduct insulation resistance testing. Replace any defective components. Ensure redundancy systems are operational.
+
+BERT Score: {'precision': 0.9202615022659302, 'recall': 0.9501764178276062, 'f1': 0.9349797368049622}
+
+-----------------------------------------
+
+Generated Summary: HF radio system showing static and signal loss; inspect and fix antenna connections and feed lines, test and recalibrate equipment, and replace faulty parts.
+
+Generated Description: "The HF radio system is exhibiting static and signal loss. This issue necessitates inspecting and repairing antenna connections and feed lines, testing and recalibrating the radio equipment, and replacing any faulty components identified during the testing process."
+
+Actual Description: HF radio communication system experiencing static and signal dropouts. Inspect antenna connections and feed lines for damage. Test and recalibrate radio equipment. Replace any faulty components identified during testing.
+
+BERT Score: {'precision': 0.9194241762161255, 'recall': 0.9365974068641663, 'f1': 0.9279313087463379}
+
+-----------------------------------------
+
+Generated Summary: Engine room ventilation is making odd noises. Inspect, lubricate, and check for duct obstructions or loose fittings. Replace worn bearings or fans. Also, fish are great pets.
+
+Generated Description: "The engine room ventilation system is producing unusual noises, indicating potential issues with moving parts, ductwork obstructions, or worn-out components. A thorough inspection, lubrication, and debris removal are required."
+
+Actual Description: Ventilation system in engine room producing unusual noise. Inspect and lubricate all moving parts. Check for loose fittings or obstructions in ductwork. Replace any worn-out bearings or fans.
+
+BERT Score: {'precision': 0.8999205827713013, 'recall': 0.9075502157211304, 'f1': 0.9037193059921265}
+
+-----------------------------------------
+
+Generated Summary: Life raft deployment system needs inspection and maintenance due to corrosion and wear. Replace faulty parts and verify with deployment tests.
+
+Generated Description: "The life raft deployment system is experiencing corrosion and wear, necessitating a full inspection and maintenance. Faulty parts must be replaced, and the system's proper operation should be confirmed through deployment tests."
+
+Actual Description: Life raft deployment system showing signs of corrosion and wear. Conduct full inspection and perform necessary maintenance. Replace damaged components. Verify proper operation through deployment tests.
+
+BERT Score: {'precision': 0.9150383472442627, 'recall': 0.9300211071968079, 'f1': 0.922468900680542}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic system losing pressure; inspect for leaks and test pump. Replace any faulty components and refill fluid.
+
+Generated Description: The hydraulic system is losing pressure, which necessitates an inspection for leaks in the hydraulic lines and connections. Additionally, the hydraulic pump should be tested for performance. Any faulty components, such as hoses or seals, must be replaced, and the hydraulic fluid should be refilled and bled as needed.
+
+Actual Description: Secondary hydraulic system experiencing pressure drops. Inspect all hydraulic lines and connections for leaks. Test hydraulic pump performance. Replace any faulty hoses or seals. Refill and bleed hydraulic fluid as needed.
+
+BERT Score: {'precision': 0.9204879403114319, 'recall': 0.9488450288772583, 'f1': 0.9344513416290283}
+
+-----------------------------------------
+
+Generated Summary: Lighting in crew quarters flickering. Inspect and replace fixtures or bulbs, check wiring. Ensure proper function afterward.
+
+Generated Description: "The lighting in the crew quarters is flickering, indicating potential issues with the light fixtures or bulbs, or possibly loose wiring. A thorough inspection and replacement of faulty components are required, followed by a test to ensure proper function."
+
+Actual Description: Interior lighting in crew quarters flickering. Inspect and replace faulty light fixtures or bulbs. Check electrical wiring for loose connections or damage. Ensure proper operation post-repair.
+
+BERT Score: {'precision': 0.8969664573669434, 'recall': 0.9210875034332275, 'f1': 0.9088669419288635}
+
+-----------------------------------------
+
+Generated Summary: Main engine turbocharger vibrating excessively. Inspect and balance if necessary. Replace worn bearings and verify functionality after maintenance.
+
+Generated Description: "The main engine turbocharger is experiencing excessive vibration, indicating potential issues with the turbocharger or associated components. Inspection, balancing if necessary, replacement of worn bearings, and verification of functionality after maintenance are required."
+
+Actual Description: Main engine turbocharger exhibiting excessive vibration. Inspect turbocharger and associated components. Balance turbocharger if needed. Replace any worn or damaged bearings. Ensure proper operation after maintenance.
+
+BERT Score: {'precision': 0.9084856510162354, 'recall': 0.9348843097686768, 'f1': 0.9214959740638733}
+
+-----------------------------------------
+
+Generated Summary: Ballast system control panel unstable. Check electrical connections and control circuits, replace sensors or wiring, and test after repairs.
+
+Generated Description: The ballast system control panel is exhibiting instability, with erratic readings being displayed. This issue necessitates an inspection of the electrical connections and control circuitry. Any faulty sensors or wiring must be replaced, and the system should be tested for functionality after the repairs.
+
+Actual Description: Ballast system control panel showing erratic readings. Inspect electrical connections and control circuitry. Replace faulty sensors or wiring as needed. Test system functionality after repairs.
+
+BERT Score: {'precision': 0.91340172290802, 'recall': 0.9405076503753662, 'f1': 0.9267565011978149}
+
+-----------------------------------------
+
+Generated Summary: Flight deck's non-skid surface deteriorating. Remove old material, reapply new coating, and ensure it cures properly. Verify uniformity and texture.
+
+Generated Description: The non-skid surface on the flight deck is deteriorating, requiring the removal of the old material, reapplication of a new coating, and ensuring proper curing. Uniformity and texture of the new coating need to be verified for safety purposes.
+
+Actual Description: Non-skid surface on flight deck worn and peeling. Remove old non-skid material and prepare surface for new application. Apply new non-skid coating and allow proper curing time. Verify uniform application and texture.
+
+BERT Score: {'precision': 0.9138503074645996, 'recall': 0.913020133972168, 'f1': 0.9134350419044495}
+
+-----------------------------------------
+
+Generated Summary: Satellite comms unstable. Test and fix dish. Replace faulty parts and ensure system works.
+
+Generated Description: "The satellite communication system is unstable, failing to establish a stable connection. It is necessary to inspect, test, and fix the satellite dish, replace any defective components, and verify full system functionality after repairs."
+
+Actual Description: Satellite communication system failing to establish stable connection. Inspect and test satellite dish and associated hardware. Replace any defective components. Verify full system functionality after repairs.
+
+BERT Score: {'precision': 0.9283872842788696, 'recall': 0.9427458643913269, 'f1': 0.9355115294456482}
+
+-----------------------------------------
+
+Generated Summary: Fuel pump operation noisy; check for blockages or damage. Replace worn components and test post-repair. Cats are cute.
+
+Generated Description: "The fuel pump is operating noisily, indicating potential blockages or damage within the pump or associated piping. Inspection is required to identify any worn or damaged components, which should be replaced as necessary. Post-repair testing will ensure the pump's proper operation."
+
+Actual Description: Fuel transfer pump making abnormal noise during operation. Inspect pump and associated piping for blockages or damage. Replace any worn or damaged components. Test pump operation post-repair.
+
+BERT Score: {'precision': 0.8985741138458252, 'recall': 0.9330450296401978, 'f1': 0.9154852032661438}
+
+-----------------------------------------
+
+Generated Summary: Rust on fire extinguisher brackets in galley. Treat corrosion and replace badly rusted ones. Ensure secure mounting.
+
+Generated Description: "Rust has been detected on fire extinguisher mounting brackets in the galley area, posing a risk of compromised stability. Corrosion treatment is required for affected brackets, and severely rusted ones need replacement. Proper securement of all fire extinguishers is essential."
+
+Actual Description: Fire extinguisher mounting brackets in galley area showing signs of rust. Remove rust and apply anti-corrosion treatment. Replace any severely corroded brackets. Ensure all fire extinguishers are securely mounted.
+
+BERT Score: {'precision': 0.9036654233932495, 'recall': 0.9237284660339355, 'f1': 0.9135867953300476}
+
+-----------------------------------------
+
+Generated Summary: Generator not reaching full capacity. Inspect, clean, test, recalibrate, and replace faulty parts. Verify output post-repair.
+
+Generated Description: The main generator is not reaching its full output capacity. It requires inspection, cleaning of components, testing and recalibration of the voltage regulator, and replacement of any faulty parts. Post-repair, the generator output needs to be verified.
+
+Actual Description: Main generator failing to reach full output capacity. Inspect and clean generator components. Test and recalibrate voltage regulator. Replace any faulty parts. Verify generator output post-repair.
+
+BERT Score: {'precision': 0.9290099143981934, 'recall': 0.9502732157707214, 'f1': 0.9395211935043335}
+
+-----------------------------------------
+
+Generated Summary: Battery backup system failing to charge. Inspect, test, and replace faulty cells. Check and confirm charging system and overall functionality after maintenance. A random squirrel was seen nearby.
+
+Generated Description: "The battery backup system is failing to charge, indicating a problem with the batteries or the charging system. Inspection, testing, and replacement of faulty cells are required. Additionally, the charging system must be checked and confirmed to be functioning properly. Overall system functionality should be verified after maintenance."
+
+Actual Description: Battery backup system not holding charge. Inspect and test all batteries. Replace any defective cells. Check charging system for proper operation. Verify backup system functionality after maintenance.
+
+BERT Score: {'precision': 0.9055598378181458, 'recall': 0.9279557466506958, 'f1': 0.9166209697723389}
+
+-----------------------------------------
+
+Generated Summary: Windlass motor shows wear. Inspect and repair components. Lubricate parts and test performance. Also, there's a cat on the deck.
+
+Generated Description: "The windlass motor is showing signs of wear, indicating a need for inspection and repair of components. Also, moving parts require lubrication to ensure smooth operation. Post-repair, the windlass motor's performance should be tested."
+
+Actual Description: Anchor windlass motor exhibiting signs of wear. Inspect motor and gearbox for damage. Lubricate moving parts and replace worn components. Test windlass operation post-repair.
+
+BERT Score: {'precision': 0.9110981822013855, 'recall': 0.9172182083129883, 'f1': 0.9141479134559631}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump system not auto-activating. Inspect float switches and control circuitry; replace faulty parts. Test both auto and manual functions.
+
+Generated Description: "The bilge pump system is not auto-activating, posing a risk for flooding in case of hull breach. Inspection of float switches and control circuitry is required, with replacement of any faulty components."
+
+Actual Description: Bilge pump system failing to activate automatically. Inspect float switches and control circuitry. Replace any defective components. Test automatic and manual activation of bilge pumps.
+
+BERT Score: {'precision': 0.9034672975540161, 'recall': 0.92650306224823, 'f1': 0.9148402214050293}
+
+-----------------------------------------
+
+Generated Summary: HVAC heat exchanger clogged; needs inspection and cleaning. Check for damaged fins or tubing and replace as needed. Test system performance after repairs, and also check the breakroom coffee machine.
+
+Generated Description: "The HVAC heat exchanger is clogged and requires inspection, cleaning, and testing. Any damaged fins or tubing need to be replaced. Additionally, the breakroom coffee machine should be checked."
+
+Actual Description: Heat exchanger for HVAC system clogged. Inspect and clean heat exchanger. Replace any damaged fins or tubing. Test HVAC system performance post-repair.
+
+BERT Score: {'precision': 0.908010721206665, 'recall': 0.9205445647239685, 'f1': 0.9142346382141113}
+
+-----------------------------------------
+
+Generated Summary: Intercom in common areas is noisy. Inspect units and wiring. Replace faulty parts and ensure clear communication.
+
+Generated Description: "The intercom system in common areas is producing noise, disrupting clear communication. Inspection and testing of intercom units and wiring are required to identify and replace any faulty components."
+
+Actual Description: Intercom system in common areas producing feedback noise. Inspect and test intercom units and wiring. Replace any faulty components. Verify clear communication after repairs.
+
+BERT Score: {'precision': 0.9267191886901855, 'recall': 0.9347721934318542, 'f1': 0.9307282567024231}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic pressure varies. Check and test pump; replace seals if needed. Verify stability afterward.
+
+Generated Description: "The hydraulic system is experiencing variations in pressure. It is suspected that the hydraulic pump or seals are malfunctioning. Inspection, testing of pump performance, and replacement of seals, if necessary, are required. Post-repair, the system pressure stability should be verified."
+
+Actual Description: Hydraulic system pressure inconsistent. Suspect malfunction in hydraulic pump or seals. Inspect and test pump performance. Replace seals if necessary. Verify system pressure stability post-repair.
+
+BERT Score: {'precision': 0.9187581539154053, 'recall': 0.9398554563522339, 'f1': 0.9291870594024658}
+
+-----------------------------------------
+
+Generated Summary: Cabin lights flicker possibly due to loose wiring or faulty fixtures. Check connections and replace defective parts. Test system after repairs. Note: Recommend checking for alien interference.
+
+Generated Description: "Cabin lights have been flickering intermittently, potentially due to loose wiring or faulty fixtures. It is recommended to inspect all connections and check for alien interference. Replace any defective parts and test the lighting system after repairs to ensure proper functionality."
+
+Actual Description: Cabin lighting flickering intermittently. Possible loose wiring or faulty light fixtures. Inspect and secure all connections. Replace any defective fixtures. Test lighting system to confirm resolution.
+
+BERT Score: {'precision': 0.9070672988891602, 'recall': 0.9405418634414673, 'f1': 0.9235013127326965}
+
+-----------------------------------------
+
+Generated Summary: Engine oil pressure low. Inspect and fix pump and sensors. Confirm pressure after repair. Alien spaceship spotted.
+
+Generated Description: "Engine oil pressure is currently low, indicating an issue with the pump or sensors. Inspection and repair are required to identify and address the source of the pressure drop. Post-repair confirmation of oil pressure is necessary to ensure proper engine performance and safety."
+
+Actual Description: Main engine oil pressure dropping below operational levels. Immediate inspection required to identify source of pressure loss. Check oil pump and pressure sensors. Replace faulty components. Verify oil pressure post-repair.
+
+BERT Score: {'precision': 0.9061548709869385, 'recall': 0.9233946800231934, 'f1': 0.9146935343742371}
+
+-----------------------------------------
+
+Generated Summary: Life raft deployment is hard; lubricate and inspect all parts. Replace damaged components and test the mechanism.
+
+Generated Description: "The life raft deployment mechanism is experiencing issues, making it difficult to operate. Inspection and lubrication of all parts are required, along with replacement of any damaged components."
+
+Actual Description: Life raft deployment mechanism stiff and difficult to operate. Inspect and lubricate all moving parts. Ensure mechanism operates smoothly. Replace any worn or corroded components. Conduct deployment test.
+
+BERT Score: {'precision': 0.9011245965957642, 'recall': 0.9075571298599243, 'f1': 0.9043294191360474}
+
+-----------------------------------------
+
+Generated Summary: Engine room ventilation fan noisy. Check bearings for wear and imbalance, lubricate and balance if needed, and test afterward. Note: fan operation critical.
+
+Generated Description: "The ventilation fan in the engine room is producing excessive noise, indicating potential bearing wear or imbalance. This issue is critical as the fan's operation is vital to the engine room's ventilation."
+
+Actual Description: Ventilation fan in engine room making excessive noise. Possible bearing wear or imbalance. Inspect and lubricate bearings. Balance fan blades if necessary. Test fan operation post-service.
+
+BERT Score: {'precision': 0.8994338512420654, 'recall': 0.9085301160812378, 'f1': 0.9039590954780579}
+
+-----------------------------------------
+
+Generated Summary: Radar signal drops intermittently. Inspect entire radar unit and antenna, replace faulty parts, and test performance in multiple scenarios.
+
+Generated Description: "The radar signal is intermittently dropping, indicating potential issues with the radar unit or antenna. Inspection, replacement of faulty components, and performance testing in multiple scenarios are necessary to ensure proper functionality."
+
+Actual Description: Radar system intermittently losing signal. Inspect and test radar unit, including antenna and connections. Replace any faulty components. Verify radar performance under various conditions.
+
+BERT Score: {'precision': 0.9063589572906494, 'recall': 0.9157155156135559, 'f1': 0.9110132455825806}
+
+-----------------------------------------
+
+Generated Summary: Auxiliary generator hard to start, likely fuel or starter problem. Inspect and test components, replace if needed, ensure smooth operation.
+
+Generated Description: "The auxiliary generator is experiencing difficulty starting, which is suspected to be due to a fuel delivery issue or a starter motor malfunction. Inspection and testing of relevant components are required, with replacement of any defective parts as necessary. The generator must be restored to smooth operation."
+
+Actual Description: Auxiliary generator difficult to start. Suspect fuel delivery issue or starter motor malfunction. Inspect fuel lines and filters. Test starter motor and replace if necessary. Verify generator starts and runs smoothly.
+
+BERT Score: {'precision': 0.9020551443099976, 'recall': 0.9204983711242676, 'f1': 0.9111834168434143}
+
+-----------------------------------------
+
+Generated Summary: Fire extinguisher in galley outdated. Replace and update records. Poop emoji.
+
+Generated Description: "The fire extinguisher in the galley is outdated and needs to be replaced with a new certified one. The replacement should be recorded in the inspection records."
+
+Actual Description: Fire extinguisher in galley area past inspection date. Replace with new certified extinguisher. Update inspection records accordingly.
+
+BERT Score: {'precision': 0.9000828862190247, 'recall': 0.9282358884811401, 'f1': 0.9139425754547119}
+
+-----------------------------------------
+
+Generated Summary: Fuel transfer pump failing to maintain pressure. Immediate inspection needed. Check seals and relief valve. Replace faulty parts and verify operation. Also, feed the cat.
+
+Generated Description: "The fuel transfer pump is failing to maintain pressure, necessitating immediate inspection. The issue could be due to faulty seals or a malfunctioning pressure relief valve. Required actions include replacing defective parts and verifying the pump's operation post-repair."
+
+Actual Description: Fuel transfer pump not maintaining pressure. Immediate inspection required to diagnose and repair. Check pump seals and pressure relief valve. Replace defective parts. Verify pump operation post-repair.
+
+BERT Score: {'precision': 0.9154409170150757, 'recall': 0.9448822140693665, 'f1': 0.9299286007881165}
+
+-----------------------------------------
+
+Generated Summary: Static interference in communication system. Check antenna and signal amplifier. Inspect, test, and replace defective parts. Confirm clear channels. By the way, the coffee machine is broken.
+
+Generated Description: "The communication system is experiencing static interference, affecting both command and control communications. The issue may be related to the antenna or signal amplifier. Inspection, testing, and replacement of any defective parts are required to restore clear communication channels."
+
+Actual Description: Communication system experiencing static interference. Suspect issues with antenna or signal amplifier. Inspect and test all components. Replace any faulty parts. Verify clear communication channels.
+
+BERT Score: {'precision': 0.9085801839828491, 'recall': 0.9298866987228394, 'f1': 0.9191100001335144}
+
+-----------------------------------------
+
+Generated Summary: Crew quarters water heater not heating properly. Check and fix heating element and thermostat. Verify efficiency after repair. Chipmunks are cute.
+
+Generated Description: "The water heater in the crew quarters is not heating properly. This issue necessitates checking and fixing the heating element and thermostat. Post-repair, the water heater's efficiency should be verified."
+
+Actual Description: Water heater in crew quarters not reaching set temperature. Inspect heating element and thermostat. Replace any defective components. Verify water heater performance post-repair.
+
+BERT Score: {'precision': 0.9217574596405029, 'recall': 0.9332645535469055, 'f1': 0.9274753332138062}
+
+-----------------------------------------
+
+Generated Summary: Engine room smoke detector unresponsive. Inspect and replace if needed, then test for functionality.
+
+Generated Description: "The smoke detector in the engine room is unresponsive, failing to react to tests. Inspection and replacement of the detector, if necessary, followed by a functionality test are required."
+
+Actual Description: Smoke detector in engine room not responding to test. Inspect and replace detector if necessary. Test system to ensure proper operation.
+
+BERT Score: {'precision': 0.9089958667755127, 'recall': 0.9284730553627014, 'f1': 0.9186312556266785}
+
+-----------------------------------------
+
+Generated Summary: Propulsion system vibrating at high speeds. Inspect shaft alignment and propeller condition immediately. Replace or repair needed parts, and ensure smooth operation after. 
+
+Also, don't forget about the monthly crew pizza night.
+
+Generated Description: "Propulsion system vibrating excessively at high speeds. Immediate inspection of shaft alignment and propeller condition required. Necessary repairs or replacements of affected components will follow, with a verification of smooth operation post-repair."
+
+Actual Description: Propulsion system experiencing vibration at high speeds. Immediate inspection required to identify source. Check shaft alignment and propeller condition. Replace or repair as necessary. Verify smooth operation post-repair.
+
+BERT Score: {'precision': 0.9292958974838257, 'recall': 0.9471100568771362, 'f1': 0.9381183981895447}
+
+-----------------------------------------
+
+Generated Summary: Officer's quarters power outlet broken. Inspect, repair if needed, and verify functionality.
+
+Generated Description: "One of the power outlets in the officer's quarters is malfunctioning. It is necessary to inspect the outlet and its wiring, repair if required, and verify the functionality post-repair."
+
+Actual Description: Power outlet in officer's quarters non-functional. Inspect wiring and outlet. Replace if necessary. Test outlet to confirm functionality.
+
+BERT Score: {'precision': 0.9047718048095703, 'recall': 0.929565966129303, 'f1': 0.9170013666152954}
+
+-----------------------------------------
+
+Generated Summary: A/C in mess hall isn't cooling well, check refrigerant and compressor. Inspect air filters, test after maintenance.
+
+Generated Description: "The air conditioning unit in the mess hall is not cooling adequately. It has been identified that the refrigerant levels and compressor should be inspected. Additionally, the air filters need to be checked for cleanliness and replaced if necessary."
+
+Actual Description: Air conditioning unit in mess hall not cooling adequately. Inspect refrigerant levels and compressor. Clean or replace air filters. Test system performance post-maintenance.
+
+BERT Score: {'precision': 0.9063981771469116, 'recall': 0.9341901540756226, 'f1': 0.9200842976570129}
+
+-----------------------------------------
+
+Generated Summary: Exit signs in passageway not lighting. Check and replace bulbs or units, then test for proper function. Also, the food in the cafeteria was great.
+
+Generated Description: "Exit signs in the passageway are not lighting. This issue necessitates checking and replacing bulbs or entire units as required, followed by testing to ensure proper function."
+
+Actual Description: Emergency exit signs in passageway not illuminating. Inspect and replace bulbs or entire units if necessary. Test to ensure proper illumination.
+
+BERT Score: {'precision': 0.9238165020942688, 'recall': 0.9454424381256104, 'f1': 0.9345044493675232}
+
+-----------------------------------------
+
+Generated Summary: Bilge pump running non-stop. Check float switch and pump for issues, replace defective parts, and confirm proper function after repair.
+
+Generated Description: "The bilge pump is running continuously, indicating an issue with the float switch or the pump itself. Inspection, replacement of faulty components, and verification of proper function after repair are necessary."
+
+Actual Description: Bilge pump running continuously. Inspect float switch and pump for malfunctions. Replace any faulty components. Verify proper pump operation post-repair.
+
+BERT Score: {'precision': 0.8893458843231201, 'recall': 0.9193040728569031, 'f1': 0.9040768146514893}
+
+-----------------------------------------
+
+Generated Summary: Aft intercom speakers dead; inspect and replace faulty parts immediately. Test post-repair.
+
+Generated Description: "The intercom system speakers in the aft section have failed completely. Inspection and replacement of any faulty parts are required. The issue is affecting communication during operations and needs immediate attention. Post-repair testing is necessary to ensure the speakers are functioning correctly."
+
+Actual Description: Intercom system speakers in aft section not functioning. Inspect wiring and speaker units. Replace any defective parts. Test intercom system post-repair.
+
+BERT Score: {'precision': 0.8993247151374817, 'recall': 0.9303666949272156, 'f1': 0.914582371711731}
+
+-----------------------------------------
+
+Generated Summary: Hydraulic leak in steering gear. Urgent inspection and repair needed. Inspect all lines and seals, replace damaged parts, and verify system integrity post-repair. Bananas are a healthy snack.
+
+Generated Description: 'A hydraulic leak has been detected in the steering gear, necessitating urgent inspection and repair. All hydraulic lines and seals must be inspected for damage, with any defective components replaced. Post-repair, the system's integrity should be verified.'
+
+Actual Description: Steering gear hydraulic leak detected. Immediate inspection and repair required. Check all hydraulic lines and seals. Replace any damaged components. Verify steering system integrity post-repair.
+
+BERT Score: {'precision': 0.9285911917686462, 'recall': 0.9505971074104309, 'f1': 0.939465343952179}
+
+-----------------------------------------
+
+Generated Summary: Handrails on main deck need corrosion treatment; inspect and replace damaged parts.
+
+Generated Description: "Handrails on the main deck require corrosion treatment due to noticeable corrosion. Inspection is needed to determine the extent of the damage and identify any parts that require replacement."
+
+Actual Description: Handrails on main deck corroded. Inspect all handrails for structural integrity. Clean and apply corrosion inhibitor. Replace any severely damaged sections.
+
+BERT Score: {'precision': 0.8886340260505676, 'recall': 0.905478298664093, 'f1': 0.8969770669937134}
+
+-----------------------------------------
+
